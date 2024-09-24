@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    height: 100dvh;
+    overflow: hidden;
+}
+
+body
+{
+    /* border: 3px solid red; */
+    height: 100%;
+    overflow-y: auto;
+    background-color: #252422;
+    color: whitesmoke;
+}
+
+header
+{
+    /* border: 3px solid blue; */
+    height: 10%;
+    width: 100%;
+    background-color: #403D39;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_links
+{
+    text-decoration: none;
+    color: whitesmoke;
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* This is the title and logo container */
+.title-logo
+{
+    /* border: 2px solid green; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+    margin-right: 1rem;
+}
+
+.title, .logo
+{
+    color: #EB5E28;
+    font-size: 2rem;
+    font-family: 'Titillium Web', 'san-serif';
+}
+
+.main_home
+{
+    /* border: 3px solid green; */
+    height: 90%;
+    padding: 0.5rem 0;
+    font-family: 'quicksand', serif;
+    margin: 0 3rem;
+}
+
+/* Main section for all movies. */
+.main_movie
+{
+    border: red 3px solid;
+}
+
+.line1
+{
+    /* border: 3px solid red; */
+    width: 100%;
+    height: max-content;
+    padding: 30px 0;
+}
+
+/* Movie information */
+
+.link
+{
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    width: max-content;
+    /* border: 3px solid hotpink; */
+    padding: 10px;
+}
+
+
+.movie_image_holder
+{
+    /* border: 3px solid gold; */
+    height: max-content;
+    width: 30dvh;
+    margin: 10px 0;
+}
+
+.movie_image
+{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    transition: all 0.2s;
+}
+
+/* Let the image increase in size when hover */
+.movie_image:hover
+{
+    transform: scale(1.05);
+}
+
+.movie_info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie_name
+{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+
+/* Movie Pages desgin  */
+.movie_main
+{
+    /* border: 2px solid purple; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_movie_title
+{
+    margin-top: 20px;
+    font-family: 'Titillium Web', 'san-serif';
+}
+
+.download_link
+{
+    text-decoration: none;
+    background-color: #EB5E28;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'quicksand', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+

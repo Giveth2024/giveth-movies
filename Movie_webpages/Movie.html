@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="shortcut icon" href="../Images/Logo/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
+    <script src="../script.js" defer></script>
+    <title>Giveth Movies - Movie</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-logo">
+            <i class="fa-solid fa-film logo"></i>
+            <h3 class="title">Giveth Movies</h3>
+        </div>
+        <a href="../index.html" class="nav_links">Home</a>
+    </header>
+
+    <main class="movie_main">
+        <!-- Responsive Iframe -->
+        <iframe class="movie_frame" src="https://drive.google.com/file/d/1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA/preview" id="movie_iframe" allowfullscreen></iframe>
+        
+        <h1 class="h1_movie_title">Blended</h1>
+
+        <!-- Buttons below the movie title -->
+        <p class="text">Watch Using:</p>
+        <div class="buttons_div">
+            <button class="buttons_div_button" onclick="Drive_Function()">Drive</button>
+            <button class="buttons_div_button" onclick="Mega_Function()">Mega</button>
+        </div>
+
+        <!-- Download Links -->
+        <p class="text">Download Using:</p>
+        <div class="download_link_holder">
+            <a href="https://drive.google.com/file/d/1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA/view?usp=drive_link" target="_blank" class="download_link">Drive</a>
+            <a href="https://mega.nz/file/KJgiWDBT#9gL_dXM2JxPF_7QVxFep3DmrvPp4td42WKORPodMyNA" target="_blank" class="download_link">Mega</a>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer Content -->
+         <p class="text">Website made by: <span style="color: #EB5E28; font-weight: bolder;"><u>Giveth Movies</u></span></p>
+    </footer>
+</body>
+</html>

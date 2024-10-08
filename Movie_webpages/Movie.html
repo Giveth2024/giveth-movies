@@ -25,22 +25,22 @@
 
     <main class="movie_main">
         <!-- Responsive Iframe -->
-        <iframe class="movie_frame" src="https://drive.google.com/file/d/1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA/preview" id="movie_iframe" allowfullscreen></iframe>
+        <iframe class="movie_frame" id="movie_iframe"  allowfullscreen></iframe>
         
-        <h1 class="h1_movie_title">Blended</h1>
+        <h1 class="h1_movie_title" id="movie_title">Blended</h1>
 
         <!-- Buttons below the movie title -->
         <p class="text">Watch Using:</p>
         <div class="buttons_div">
             <button class="buttons_div_button" onclick="Drive_Function()">Drive</button>
-            <button class="buttons_div_button" onclick="Mega_Function()">Mega</button>
+            <!-- Add more alternatives here -->
         </div>
 
         <!-- Download Links -->
         <p class="text">Download Using:</p>
         <div class="download_link_holder">
-            <a href="https://drive.google.com/file/d/1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA/view?usp=drive_link" target="_blank" class="download_link">Drive</a>
-            <a href="https://mega.nz/file/KJgiWDBT#9gL_dXM2JxPF_7QVxFep3DmrvPp4td42WKORPodMyNA" target="_blank" class="download_link">Mega</a>
+            <a href="#" target="_blank" class="download_link" id="movie_download_link">Drive</a>
+            <!-- Add more alternatives here -->
         </div>
     </main>
 

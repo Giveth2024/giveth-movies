@@ -1,3 +1,3 @@
-This is my Movie Website in making. 
+Giveth Movies
 
-All the information will be displayed in this section
+Used the movie as default class for styling the series.

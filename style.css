@@ -23,7 +23,7 @@ body
 header
 {
     /* border: 3px solid blue; */
-    height: 12.5%;
+    height: 80px;
     width: 100%;
     background-color: #403D39;
     padding: 0 1rem;
@@ -75,13 +75,22 @@ header
     margin: 0 3rem;
 }
 
+.category_heading
+{
+    margin:  30px 0 0 0;
+    font-size: 1.3rem;
+}
+
 /* Main section for all movies. */
-.line1
+.line1, .line2
 {
     /* border: 3px solid red; */
     width: 100%;
     height: max-content;
     padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
 }
 
 /* Movie information */
@@ -93,23 +102,23 @@ header
     display: inline-block;
     width: max-content;
     /* border: 3px solid hotpink; */
-    padding: 10px;
+    padding: 0 10px 0 0;
+    margin: 0 20px 0 0;
 }
 
 
 .movie_image_holder
 {
-    /* border: 3px solid gold; */
     height: max-content;
-    width: 30dvh;
-    margin: 10px 0;
+    width: 200px;
+    margin: 10px 0 10px 0;
 }
 
 .movie_image
 {
     border-radius: 10px;
     width: 100%;
-    height: auto;
+    height: 320px;
     transition: all 0.2s;
 }
 
@@ -129,15 +138,15 @@ header
 .movie_name
 {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 10px 0;
+    text-align: center;
 }
-
 
 /* Movie Pages desgin  */
 .movie_main
 {
-    /* border: 2px solid purple; */
+    border: 2px solid purple;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -149,6 +158,7 @@ header
 {
     font-size: 3rem;
     margin: 15px 0;
+    text-align: center;
     font-family: 'Titillium Web', 'san-serif';
 }
 
@@ -215,7 +225,7 @@ header
 footer
 {
     width: 100%;
-    height: 12.5%;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -241,15 +251,78 @@ footer
     .buttons_div_button{
         font-size: 14px;
     }
+
+    .link
+    {
+        margin: 0 20px 0 0;
+    }
+
+
+    /* Main section for all movies. */
+    .line1
+    {
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    .main_home
+    {
+        /* padding: 10px 10px; */
+        margin: 0 10px;
+    }
+
+    /* Movie information */
+    .movie_image_holder
+    {
+        width: 150px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .movie_image
+    {
+        border-radius: 10px;
+        width: 100%;
+        height: 220px;
+        transition: all 0.2s;
+    }
+
+    .movie_info
+    {
+        font-size: 0.75rem;
+    }
+
+    .movie_name
+    {
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+
 }
 
+
+
 @media (min-width: 1200px) {
-    .title {
-        font-size: 24px;
+    header
+    {
+        height: 80px;
+        padding: 40px;
+    }
+
+    .title, .logo
+    {
+        font-size: 2rem;
+    }
+
+    .nav_links
+    {
+        font-size: 1.2rem;
     }
 
     .h1_movie_title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 15px 0;
     }
 
@@ -257,7 +330,87 @@ footer
         font-size: 18px;
     }
 
-    .buttons_div_button{
-        font-size: 18px;
+}
+
+@media screen and (width >= 2000px)
+{
+    header
+    {
+        height: 200px;
+        padding: 40px;
     }
+
+    .title, .logo
+    {
+        font-size: 5rem;
+    }
+
+    .nav_links
+    {
+        font-size: 3.2rem;
+    }
+
+    /* Movie information */
+    .movie_image_holder
+    {
+        width: 560px;
+        margin-bottom: 50px;
+    }
+
+    .movie_image
+    {
+        height: 900px;
+    }
+
+    .movie_name
+    {
+        font-size: 2.8rem;
+    }
+
+    .movie_info
+    {
+        font-size: 2.8rem;
+    }
+
+    .category_heading
+    {
+        font-size: 5rem;
+    }
+
+    .movie_main
+    {
+        border: 2px solid purple;
+        height: 3000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .movie_frame
+    {
+        margin-top: 300px;
+        transform: scale(2.25);
+    }
+
+    .h1_movie_title
+    {
+        margin-top: 350px;
+        font-size: 8rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .text
+    {
+        font-size: 3rem;
+        margin-top: 50px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .download_link, .buttons_div_button {
+        font-size: 3rem;
+        font-family: 'Quicksand', sans-serif;
+        padding: 20px 70px;
+    }
+
 }

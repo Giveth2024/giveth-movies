@@ -23,7 +23,13 @@
         const movieSources = {
             ArtemisFowl : ["https://drive.google.com/file/d/1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA/preview"],
             
-            Atlas : ["https://drive.google.com/file/d/1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j/preview"]
+            Atlas : ["https://drive.google.com/file/d/1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j/preview"],
+
+            Blended : ["https://drive.google.com/file/d/1pmPgrQPLtR_G7RFDl6sEche_K8l1cYwQ/preview"],
+
+            StevenUniverseTheMovie : ["https://drive.google.com/file/d/1rc0sy2PuDBLl__5hUNi-SJWbUFscOUj6/preview"],
+
+            TheMortalInstrumentsCityOfBones : ["https://drive.google.com/file/d/1ozDpQyTcjF67m9OwOpFEfBcXxLXstlOJ/preview"]
             
         };
         
@@ -38,14 +44,23 @@
         {
             ArtemisFowl : ["https://drive.usercontent.google.com/download?id=1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA&export=download&authuser=0"],
 
-            Atlas : ["https://drive.usercontent.google.com/download?id=1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j&export=download&authuser=0"]
+            Atlas : ["https://drive.usercontent.google.com/download?id=1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j&export=download&authuser=0"],
+
+            Blended : ["https://drive.usercontent.google.com/download?id=1pmPgrQPLtR_G7RFDl6sEche_K8l1cYwQ&export=download&authuser=0"],
+
+            StevenUniverseTheMovie : ["https://drive.usercontent.google.com/download?id=1rc0sy2PuDBLl__5hUNi-SJWbUFscOUj6&export=download&authuser=0"],
+
+            TheMortalInstrumentsCityOfBones : ["https://drive.usercontent.google.com/download?id=1ozDpQyTcjF67m9OwOpFEfBcXxLXstlOJ&export=download&authuser=0"]
+
         };
 
         //Deal with titles
         const titles = {
             ArtemisFowl : "Artemis Fowl",
             Atlas : "Atlas",
-            Blended : "Blended"
+            Blended : "Blended",
+            StevenUniverseTheMovie : "Steven Universe The Movie",
+            TheMortalInstrumentsCityOfBones : "The Mortal Instruments City Of Bones"
         };
 
         // Set the iframe based on the selected video

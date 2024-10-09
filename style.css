@@ -146,7 +146,6 @@ header
 /* Movie Pages desgin  */
 .movie_main
 {
-    /* border: 2px solid purple; */
     height: max-content;
     display: flex;
     flex-direction: column;

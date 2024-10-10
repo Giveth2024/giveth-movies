@@ -427,7 +427,7 @@ footer
   
   ::-webkit-scrollbar-track {
     background: #000000; /* Light grey background */
-    border-radius: 10px; /* Curved corners */
+    border-radius: 100%; /* Curved corners */
   }
   
   ::-webkit-scrollbar-thumb {

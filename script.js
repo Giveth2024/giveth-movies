@@ -22,15 +22,15 @@
         // links for watching movies
         const movieSources = {
             ArtemisFowl : ["https://drive.google.com/file/d/1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA/preview"],
-            
             Atlas : ["https://drive.google.com/file/d/1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j/preview"],
-
             Blended : ["https://drive.google.com/file/d/1pmPgrQPLtR_G7RFDl6sEche_K8l1cYwQ/preview"],
-
             StevenUniverseTheMovie : ["https://drive.google.com/file/d/1rc0sy2PuDBLl__5hUNi-SJWbUFscOUj6/preview"],
-
-            TheMortalInstrumentsCityOfBones : ["https://drive.google.com/file/d/1ozDpQyTcjF67m9OwOpFEfBcXxLXstlOJ/preview"]
-            
+            TheMortalInstrumentsCityOfBones : ["https://drive.google.com/file/d/1ozDpQyTcjF67m9OwOpFEfBcXxLXstlOJ/preview"],
+            DespicableMe4 : ["https://drive.google.com/file/d/1BvLOnqonhdMy0CrcyaJE7QOU6mws7TVq/preview"],
+            InsideOut2 : ["https://drive.google.com/file/d/1EmG0G3i3BIuaBBisy86h2snf1lM5dHHk/preview"],
+            Coco : ["https://drive.google.com/file/d/1ZmLorAzGiI8yU2FziDMxc6H2bY8HqPvs/preview" ],
+            TransformersOne : ["https://drive.google.com/file/d/1kF6L-4vbQ-zY3LNGu_OnCNTp0ka_amcM/preview"],
+            UltramanRising : ["https://drive.google.com/file/d/1iGKuZkbSBch5B9EpHePOfp1kTpQFN-Bo/preview"]            
         };
         
         //Links for watching ads
@@ -43,14 +43,15 @@
         const Download_links =
         {
             ArtemisFowl : ["https://drive.usercontent.google.com/download?id=1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA&export=download&authuser=0"],
-
             Atlas : ["https://drive.usercontent.google.com/download?id=1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j&export=download&authuser=0"],
-
             Blended : ["https://drive.usercontent.google.com/download?id=1pmPgrQPLtR_G7RFDl6sEche_K8l1cYwQ&export=download&authuser=0"],
-
             StevenUniverseTheMovie : ["https://drive.usercontent.google.com/download?id=1rc0sy2PuDBLl__5hUNi-SJWbUFscOUj6&export=download&authuser=0"],
-
-            TheMortalInstrumentsCityOfBones : ["https://drive.usercontent.google.com/download?id=1ozDpQyTcjF67m9OwOpFEfBcXxLXstlOJ&export=download&authuser=0"]
+            TheMortalInstrumentsCityOfBones : ["https://drive.usercontent.google.com/download?id=1ozDpQyTcjF67m9OwOpFEfBcXxLXstlOJ&export=download&authuser=0"],
+            DespicableMe4 : ["https://drive.usercontent.google.com/download?id=1BvLOnqonhdMy0CrcyaJE7QOU6mws7TVq&export=download&authuser=0"],
+            InsideOut2 : ["https://drive.usercontent.google.com/download?id=1EmG0G3i3BIuaBBisy86h2snf1lM5dHHk&export=download&authuser=0"],
+            Coco : ["https://drive.usercontent.google.com/download?id=1ZmLorAzGiI8yU2FziDMxc6H2bY8HqPvs&export=download&authuser=0"],
+            TransformersOne : ["https://drive.usercontent.google.com/download?id=1kF6L-4vbQ-zY3LNGu_OnCNTp0ka_amcM&export=download&authuser=0"],
+            UltramanRising : ["https://drive.usercontent.google.com/download?id=1iGKuZkbSBch5B9EpHePOfp1kTpQFN-Bo&export=download&authuser=0"]
 
         };
 
@@ -60,7 +61,12 @@
             Atlas : "Atlas",
             Blended : "Blended",
             StevenUniverseTheMovie : "Steven Universe The Movie",
-            TheMortalInstrumentsCityOfBones : "The Mortal Instruments City Of Bones"
+            TheMortalInstrumentsCityOfBones : "The Mortal Instruments City Of Bones",
+            DespicableMe4 : "Despicable Me 4",
+            InsideOut2 : "Inside Out 4",
+            Coco : "Coco",
+            TransformersOne : "Transformers One",
+            UltramanRising : "Ultraman Rising"
         };
 
         // Set the iframe based on the selected video

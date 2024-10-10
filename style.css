@@ -106,6 +106,11 @@ header
     margin: 0 20px 0 0;
 }
 
+.fa-star
+{
+    color: #EB5E28;
+}
+
 
 .movie_image_holder
 {
@@ -412,3 +417,36 @@ footer
     }
 
 }
+
+/* Changing scroll bars for browsers */
+/* Webkit Browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the vertical scrollbar */
+    height: 12px; /* Height of the horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000; /* Light grey background */
+    border-radius: 10px; /* Curved corners */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #000000; /* Thumb color */
+    border-radius: 100%; /* Curved corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; /* Darker on hover */
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none; /* Removes arrows */
+  }
+  
+  /* Firefox */
+  html {
+    scrollbar-color: #EB5E28 #000000; /* Thumb color and track color */
+    scrollbar-width: thin; /* Makes the scrollbar thin */
+  }
+  
+  

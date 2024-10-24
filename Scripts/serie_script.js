@@ -14,14 +14,16 @@ function updateVideo() {
         StevenUniverse: "Steven Universe",
         GravityFalls: "Gravity Falls",
         Loki : "Loki",
-        Ben10 : "Ben 10"
+        Ben10 : "Ben 10",
+        RiseOfTheTeenageMutantNinjaTurtles : "Rise Of The Teenage Mutant Ninja Turtles"
     };
 
     const serie_seasons = {
         StevenUniverse: 1,
         GravityFalls : 2,
         Loki : 2,
-        Ben10 : 4
+        Ben10 : 4,
+        RiseOfTheTeenageMutantNinjaTurtles : 2
     };
 
     
@@ -302,6 +304,58 @@ function updateVideo() {
                 "Side Effects",
                 "Secrets"
             ]
+        },
+
+        RiseOfTheTeenageMutantNinjaTurtles :
+        {
+            season_1 :
+            [
+                "[Start from Episode 1]",
+                "Mystic Mayham",
+                "Donnies' Gifts & Origami",
+                "War and Pizza & NewsWorthy",
+                "Down with The Sickness & Repo Mantis",
+                "Shell in a Cell & Minotaur Maze",
+                "The Fast and the Furriest & Mascot Melee",
+                "The Longest Fight & Hypno Part Deux",
+                "The Gumbus & Mrs Cuddles",
+                "Stuck on you & Al Be Back",
+                "Bug Busters",
+                "The Evil League of Mutants",
+                "The Purple Jacket & Pizza Pit",
+                "Smart Liar & Hot Soup: The Game",
+                "Late Fee & Bull Hop",
+                "Mind Meld & Nothing But Truffle",
+                "Portal Jacked & Hypno And Warren, Sitting in a Tree",
+                "Operation: Normal & Sparring Partner",
+                "Shadow Of Evil",
+                "You Got Served & How To Make Enemies and People Bend to Your Will",
+                "Mystic Library & The Purple Game"
+            ],
+
+            season_2 :
+            [
+                "[Start from index 1]",
+                "Flushed But Never Forgotten & Lair Games",
+                "Man vs. Sewer & The Mutant Menace",
+                "Turtle-dega Nights: The Ballad of Rat Man & The Ancient Art of Ninja Hide and Seek",
+                "One Mans Junk & Snow Day",
+                "Cloak and Swaggart & Jupiter Jim Ahoy!",
+                "Insane in the Mama Train",
+                "End Game",
+                "Many Unhappy Returns",
+                "Todd Scouts & Goyles, Goyles, Goyles",
+                "Breaking Purple & Repairin Baron",
+                "Air Turtle & Pizza Puffs",
+                "Sidekick Ahoy & The Hidden City Job",
+                "Always be Brownies & Mystery Meat",
+                "Donnie vs. Witch Town & Raph's Ride-Along",
+                "Hidden City's Most Wanted & Bad Hair Day",
+                "Fists of Furry & The Clothes Don't Make the Turtle",
+                "Battle Nexus: New York",
+                "Final Part 1 & Final Part 2",
+                "Final Part 3 & Final Part 4"
+            ]
         }
     };
 
@@ -577,6 +631,58 @@ function updateVideo() {
                 "https://drive.google.com/file/d/1xjO0SrjURWZqXZ3tKXIhgvoxaq1-CtWo/preview",
                 "https://drive.google.com/file/d/1dwExJZiFXebXuEoxpEWCzgQQvOhxeoiU/preview",
                 "https://drive.google.com/file/d/1RI9wKpEZYoo12mYtCQHSAalf7rqt2hyL/preview"     
+            ]
+        },
+
+        RiseOfTheTeenageMutantNinjaTurtles :
+        {
+            season_1 :
+            [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/1BOlFJFg4KeQK5zRbCKTov7rd2mm87Uq0/preview",
+                "https://drive.google.com/file/d/1McbGDA4SQbw32_O_ZpYQTA9lyFSsPNf2/preview",
+                "https://drive.google.com/file/d/1rhZUvLaqFstb-D8BN59PzSmy_rCHT9Sf/preview",
+                "https://drive.google.com/file/d/1a2uUrS9hcfTz6rD5kJ1F7PCoKoY2I3xt/preview",
+                "https://drive.google.com/file/d/14FWcQ78bbMzGdXyy5LoIXz66beJOgkTw/preview",
+                "https://drive.google.com/file/d/1g5sN7Pr9oKUN5wDzskmHjC_ZhED2Gu9n/preview",
+                "https://drive.google.com/file/d/1Dsrk2G_gmcBIEPrXS9oXZN_-wYVBY8cs/preview",
+                "https://drive.google.com/file/d/1aADSEPGR-SG0Z92WyF47dAUn4muX_0BS/preview",
+                "https://drive.google.com/file/d/1xorprwTd0vyRzNWCRo-s2l6cD8K_hwow/preview",
+                "https://drive.google.com/file/d/1a6EYqrNxFtbNE3afh-d9jto849cssziW/preview",
+                "https://drive.google.com/file/d/1AY86dxJA9cel5hio8kv9S7XK42GoXQND/preview",
+                "https://drive.google.com/file/d/1szHq6rqGkt_orKe3jZQbW1eLNvKUN18S/preview",
+                "https://drive.google.com/file/d/1KwbwKSVFrKmZOmJTci_I0kbTWaf0HJ_Z/preview",
+                "https://drive.google.com/file/d/1l9iF1RCnKACKzt-zt3hENhTIVWwXzWPi/preview", 
+                "https://drive.google.com/file/d/1ddDQ6rNr6V56wt8YQrayTTffACNLHGKV/preview",
+                "https://drive.google.com/file/d/159ubax3eaWJshk-73VKZVY2_CHVOgBfE/preview",
+                "https://drive.google.com/file/d/1lglXcjrDbAGFEkWrWR_bEnquT5jk0fV2/preview",
+                "https://drive.google.com/file/d/19bY8a0QSyJq3oMdYv4AHwJz_kdcs5xlB/preview",
+                "https://drive.google.com/file/d/1OhfaMd2FU5OeD6kTWkJBzClAjkvGKai4/preview",
+                "https://drive.google.com/file/d/1_lmcd0xeZgSRLl6YuGkh62eZKwTEuyNe/preview"
+            ],
+
+            season_2 :
+            [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/12zNP97I9KiOhBpkcQZrQJe9Angt7EEsy/preview",
+                "https://drive.google.com/file/d/1iIW__Via75kpzzoC26RPAZ6_X7A_YjY_/preview",
+                "https://drive.google.com/file/d/1pMl6Eqqgp8ayMKtokZsjlmK2f6qoOP5i/preview",
+                "https://drive.google.com/file/d/1OBQcq1FovIEia4BX6gOLwC_FRk0hs7VK/preview",
+                "https://drive.google.com/file/d/1F-fuXmjwiXDQwSOLnSd2S-8u1096Ud-L/preview", 
+                "https://drive.google.com/file/d/1FE06fmH-yKaVxBqL5CcbTo5T_7yGNY_E/preview",
+                "https://drive.google.com/file/d/1a0Dg0Aj1dg7bXAQ6XWu97RteeGWDjCpy/preview",
+                "https://drive.google.com/file/d/1cBC86sSltKrm9KYwRcZXauIrpHEM-Jfl/preview",
+                "https://drive.google.com/file/d/1OwHzwiQZeyXxfstwoAdDnVCaBVlEPnvA/preview",
+                "https://drive.google.com/file/d/1ljq6Z22kTzA1OLVkLRFep6I0e3uzjzwO/preview",
+                "https://drive.google.com/file/d/10VebDyJwCM84vieQ0IbmqGlE2iunlEMQ/preview",
+                "https://drive.google.com/file/d/1kA1IUiFkHducMfaY1t0Ad5vhLMVX7Rdu/preview",
+                "https://drive.google.com/file/d/1GqTKl_-FubtsBTB1JfqQZTndlh83Yq0e/preview",
+                "https://drive.google.com/file/d/1OA45q90Cm7Y2HBe-z8161lilDpFWd-7X/preview",
+                "https://drive.google.com/file/d/17DuVpl-AfJdN9JVtkGXpW1vspKe_a-A7/preview",
+                "https://drive.google.com/file/d/13cCJ5otl-ZRWn-Qi8Q5_KA-9gouZyoYC/preview",
+                "https://drive.google.com/file/d/1UpNayRtxMs2L_ECx_rIVsUwp4ZOedWu_/preview",
+                "https://drive.google.com/file/d/1meS9GbjJyjVgZBO-mcFS0LHzDq47wdh2/preview",
+                "https://drive.google.com/file/d/1avzLtdSClZ8TqhigA6OazGPe9vjEgBq6/preview"
             ]
         }
     };

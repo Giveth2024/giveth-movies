@@ -1,3 +1,2 @@
-pywhatkit
-mtplib
+smtplib
 email.mime

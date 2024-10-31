@@ -2,7 +2,7 @@
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import urllib.parse as urlparse
-import pywhatkit #type: ignore
+import pywhatkit 
 
 class RequestHandler(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -28,11 +28,11 @@ class RequestHandler(BaseHTTPRequestHandler):
         # Send an email using pywhatkit
         try:
             pywhatkit.send_hmail(
-                "givethmovies@gmail.com", 
+                email,
                 "lwifyqphskzwrzqi", 
                 subject, 
                 f"<h1>Name: {name}</h1> <br> <p>{message}<p/>", 
-                email
+                "givethmovies@gmail.com"
                 )
             response_message = "Email sent successfully!"
         except Exception as e:

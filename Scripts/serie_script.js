@@ -15,7 +15,11 @@ function updateVideo() {
         GravityFalls: "Gravity Falls",
         Loki : "Loki",
         Ben10 : "Ben 10",
-        RiseOfTheTeenageMutantNinjaTurtles : "Rise Of The Teenage Mutant Ninja Turtles"
+        RiseOfTheTeenageMutantNinjaTurtles : "Rise Of The Teenage Mutant Ninja Turtles",
+        Knuckles : "Knuckles",
+        PhineasAndFerb : "Phineas And Ferb",
+        HeroAcademia : "Hero Academia",
+        TheAmazingWorldOfGumball : "The Amazing World Of Gumball"
     };
 
     const serie_seasons = {
@@ -23,7 +27,11 @@ function updateVideo() {
         GravityFalls : 2,
         Loki : 2,
         Ben10 : 4,
-        RiseOfTheTeenageMutantNinjaTurtles : 2
+        RiseOfTheTeenageMutantNinjaTurtles : 2,
+        Knuckles : 1,
+        PhineasAndFerb : 4,
+        HeroAcademia : 7,
+        TheAmazingWorldOfGumball : 5
     };
 
     
@@ -356,6 +364,269 @@ function updateVideo() {
                 "Final Part 1 & Final Part 2",
                 "Final Part 3 & Final Part 4"
             ]
+        },
+
+        Knuckles : 
+        {
+            season_1 :
+            [
+                "[Start from indexx 1]",
+                "The Warrior",
+                "Don't ever Say I wasn't there for you",
+                "The Shabbat Dinner",
+                "The Disaster of Flames",
+                "Reno, Baby",
+                "What happens in Reno, Stays in Reno"
+            ]
+        },
+
+        PhineasAndFerb : 
+        {
+            season_1 :
+            [
+                "[start from index 1]",
+                "RollerCoaster & Candace Loses Her Head",
+                "The Fast and The Phineas & Lawn Gnome Beach Party",
+                "The Magnificent View & Swinter",
+                "Are you my Mummy & Flop Starz",
+                "Raging Bully & Lights Candace Action",
+                "Get that Bigfoot outa My Face Tree & Tree to Get Ready",
+                "Its About Time",
+                "Jerk De Soleil & Toy To The World",
+                "One Good Score Ought to Do It ",
+                "A Hard Day's Knight & I, Brobot",
+                "Mom's Birthday & Journey to the Center of Candace",
+                "Run Away RunAway & I Scream, You Scream",
+                "Its a Mud Mud Mud Mud World & The Ballard of Badbeard",
+                "Dude We're Getting the Band Back together",
+                "Ready for the Bettys & The Flying Fish Monger",
+                "Phineas and Ferb Get Busted",
+                "Greece Lighting & Leave The Busting To Us",
+                "Crack That Whip & The Best Lazy Day Ever ",
+                "Boyfriend from 27000 BC & Voyage to the Bottom of Buford",
+                "Put that Putter away & Does The Duckbill Make Me Look Fat",
+                "Traffic Cam Caper & Bowl-R-Ama Drama",
+                "The Monster of Phineas N Ferbstein & Oil On Candace",
+                "Unfair Science Fair & Unfair Science Fair Redux (Another Story)",
+                "Out to Launch",
+                "Got Game & Comet Kermillian",
+                "Out of Toon & Hail Doofania",
+            ],
+
+            season_2 :
+            [
+                "[Start from index 1]",
+                "The Lake Nose Monster",
+                "Interview With a Platypus & Tip of The Day",
+                "Attack of The 50 Foot Sister & Backyard Aquarium",
+                "Day Of the Living Gelatin & Elementary My Dear Stacy",
+                "Don't Even Blink & Chez Platypus",
+                "Perry Lays An Egg & Gaming The System",
+                "The Chronicles Of Meap ",
+                "Thaddeus and Thor & De Plane De Plane",
+                "Let's Take a Quiz & At The car Wash",
+                "Oh, There You Are, Perry & Swiss Family Phineas",
+                "Hide and Seek & That Sinking Feeling",
+                "The Baljeatles & Vanessassary Roughness",
+                "No More Bunny Business & Spa Day",
+                "Phineas and Ferb Quantum Boogalo ",
+                "Phineas And Ferb Musical Cliptastic Countdown ",
+                "Bubble Boys & Isabella and the Temple of Sap",
+                "Cheer Up Candace & Fireside Girl Jamboree",
+                "The Bully Code & Finding Mary McGuffin",
+                "Picture This & Nerdy Dancin",
+                "What Do It Do? & Atlantis",
+                "Phineas and Ferb Christmas Vacation ",
+                "Just Passing Through & Candace's Big Day",
+                "I was a middle aged Robot & Suddenly Suzy",
+                "Undercover Carl &  Hip Hip Parade",
+                "Invasion of the Ferb Snatchers & Ain't No Kddie Ride",
+                "Not Phineas and Ferb & Phineas and Ferb-Busters",
+                "The Lizard Whisperer & Robot Rodeo",
+                "The Beak",
+                "She's the Mayor & The Lemonade Stand",
+                "Phineas and Ferb Hawaiian Vacation Part 1 & Phineas and Ferb Hawaiian Vacation Part 2",
+                "Phineas and Ferb Summer Belongs To you",
+                "Nerbs of a Father",
+                "Wizard of Odd ",
+                "We call it Maze & Ladies and Gentlemen Meet Max Modem",
+                "The Secret of Success & The Doof Side of The Moon",
+                "Split Personality & Brain Drain",
+                "RollerCoaster: The Musical!",
+                "Make Play & Candace Gets Busted"
+            ],
+
+            season_3 : 
+            [
+                "[Start from index 1]",
+                "Run, Candace, Run & Last Train to Bustville",
+                "The Great Indoors & Canderemy",
+                "The Belly of the Beast & Moon Farm",
+                "Phineas and Ferb Clip-O-Rama",
+                "Ask a Foolish Question & Misperceived Monotreme",
+                "Candace Disconnected & Magic Carpet Ride",
+                "Bad Hair Day & Meatloaf Surpise",
+                "Tri-Stone Area: 27,000 BC & Doof Dynasty",
+                "Phineas and Ferb Interrupted & A Real Boy",
+                "Mommy Can You hear Me & Road Trip",
+                "Skiddley Whiffers & Tour de Ferb",
+                "My Fair Goalie ",
+                "Perry the Actorpus & Bullseye!",
+                "That's the Spirit & The Curse of Candace",
+                "Escape from Phineas Tower & anpytalp eht to sniameR ehT ",
+                "Ferb Latin & Lotsa Latkes",
+                "A Phineas and Ferb Family Christmas",
+                "What a Croc & Ferb TV",
+                "Mom's in th House & Minor Monogram",
+                "Excaliferb",
+                "Monster from the Id & Gi-Ants",
+                "Agent doof & Phineas and Ferb and the Temple of Juatchadoon",
+                "Delivery of Destiny & Let's Bounce",
+                "Quitest Day Ever & Bully Bromance Breakup",
+                "The Doonkelberry Imperative & Buford Confidential",
+                "Sleepwalk Surpise & Sci-Fie Pie Fly",
+                "Meapless in Seattle",
+                "The Mom Attractor & Cranius Maximus",
+                "Sipping with the Enemy & Tri-State Treasure: Boot of Secrets",
+                "Doofapus & Norm Unleashed",
+                "When Worlds Collide & Road to Danville",
+                "Where's Perry? ",
+                "Where's Perry? (Part Two)",
+                "Blackout & What'd I Miss",
+                "This is your BackStory "
+            ],
+
+            season_4 :
+            [
+                "[Start from index 1]",
+                "Fly on the wall & My sweet Ride",
+                "For your ice only & Happy New Year",
+                "Bully Bust & Backyard Hodge Podge",
+                "Der Kinderlumper & Just desserts ",
+                "Bee Day",
+                "Sidetracked",
+                "Knot My Problem & Mind Share",
+                "Primal Perry",
+                "La Candace-Cabra & Happy Birthday, Isabella",
+                "Great Balls of Water & Where's Pinky",
+                "Phineas and Ferb: Mission Marvel",
+                "Thanks But No Thanks & Troy Story",
+                "Love at First Byte & One Good Turn",
+                "Cheers for Fears & Just Our Luck",
+                "Return Policy & Imperfect Storm",
+                "Steampunx & It's No Picnic",
+                "Terrifying Tri-State Trilogy of Terror",
+                "Druselsteinoween",
+                "The Kimpaloon Ultimatum ",
+                "Doof 101 & Father's Day",
+                "Operation Crumb Cake & Mandace",
+                "Tales from the Resistance Back to the 2nd Dimension",
+                "The Return of the Rogue Rabbt & Live and Let Drive",
+                "Lost in Danville & The Inator Method",
+                "Act your Age",
+                "Phineas and Ferb Save Summer Part 1 & 2",
+                "Night of the living pharmacists & ",
+                "Phineas and Ferb Star Wars",
+                "Phineas and Ferb Last Day of Summer",
+                "O.W.C.A -> Organization Without a Cool Acronym"                
+            ]
+        },
+
+        HeroAcademia :
+        {
+            season_1 :
+            [
+                "[Start from index 1]",
+                "Izuku Midoriya: Origin",
+                "What It Takes to Be a Hero",
+                "Roaring Muscles",
+                "Start Line",
+                "What I Can Do For Now",
+                "Rage, You Damned Nerd",
+                "Deku vs. Kacchan",
+                "Bakugo's Start Line",
+                "Yeah, Just Do Your Best, Ida!",
+                "Encounter with the Unknown",
+                "Game Over",
+                "All Might",
+                "In Each of Our Hearts",
+                "[More Episodes to come]"
+            ],
+        },
+
+        TheAmazingWorldOfGumball : 
+        {
+            season_1 :
+            [
+                "[Start from index1]",
+                "The Third & The Debt",
+                "The Pressure & The Printing",
+                "The Responsible & The Dress",
+                "The Laziest & The Ghost",
+                "The Mystery & The Prank",
+                "The Gi & The Kiss",
+                "The Party & The Refund",
+                "The Robot & The Picnic",
+                "The Goons & The Secret",
+                "The Sock & The Genius",
+                "The Mustache & The Date",
+                "The Club & The Wand",
+                "The Ape & The Poltergeist",
+                "The Quest & The Spoon",
+                "The Car & The Curse",
+                "The Microwave & The Meddler",
+                "The Helmet & The Fight",
+                "The End & The DVD",
+            ],
+
+            season_2 :
+            [
+                "[Start from index 1]",
+                "The Knights & The Colossus",
+                "The Fridge & The Remote",
+                "The Flower & The Banana",
+                "The Phone & The Job",
+                "Halloween & The Treasure",
+                "The Words & The Apology",
+                "The Skull & Christmas",
+                "The Watch & The Bet",
+                "The Bumpkin & The Flakers",
+                "The Authority & The virus",
+                "The Pony & The Storm",
+                "The Dream & The Sidekick",
+                "The Hero & The Photo",
+                "The Tag & The Lesson",
+                "The Limit & The Game",
+                "The Promise & The Voice",
+                "The Boombox & The Castle",
+                "The Tape & The Sweaters",
+                "The Internet & The Plan",
+                "The World & The Finale"                                         
+            ],
+
+            season_3 :
+            [
+                "[Start form index 1]",
+                "The Kids & The Finale",
+                "The Coach & The Joy",
+                "The Recipe & The Puppy",
+                "The Name & The Extras",
+                "The Gripes & The Vacation=",
+                "The Fraud & The Void",
+                "The Boss & The Move",
+                "The Law & The Allergy",
+                "The Mothers & The Password",
+                "The Procrastinators & The Shell",
+                "The Mirror & The Burden",
+                "The Bros & The Man",
+                "The Pizza & The Lie",
+                "The Butterfly & The Question",
+                "The Oracle & The Safety",
+                "The Friend & The Saint",
+                "The Society & The SPoiler",
+                "The Countdown & The Nobody",
+                "The Triangle & The Money",
+            ]
         }
     };
 
@@ -684,8 +955,268 @@ function updateVideo() {
                 "https://drive.google.com/file/d/1meS9GbjJyjVgZBO-mcFS0LHzDq47wdh2/preview",
                 "https://drive.google.com/file/d/1avzLtdSClZ8TqhigA6OazGPe9vjEgBq6/preview"
             ]
+        },
+
+        Knuckles :
+        {
+            season_1 :
+            [
+                "https://drive.google.com/file/d/1r5BNFBM9bz_U4zMWF_rKr5gVLPbVwAmB/preview",
+                "https://drive.google.com/file/d/11Fs97ekvzdECQCtkzi0Ye01nz1PaVAKv/preview",
+                "https://drive.google.com/file/d/12hvXrKTs-727njl2COeo7kZalv9iZJ-y/preview",
+                "https://drive.google.com/file/d/1PgJQDmYULLvRlxLaKGUnoasu652lS9i4/preview",
+                "https://drive.google.com/file/d/1uoY4JAYuXPimxaCxhG_Jrs11HQnGPYTF/preview",
+                "https://drive.google.com/file/d/1jSnlWTco649ZWY2_KlhftzOuUZLdU9LV/preview"
+            ]
+        },
+
+        PhineasAndFerb : {
+            season_1 : 
+            [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/1TYcaV0J1kF4dJLowEfqVpSW5ShVKv13Q/preview",
+                "https://drive.google.com/file/d/1AUHiEoHZ8J_Pf4xk2nlEuvedJEHyChWO/preview",
+                "https://drive.google.com/file/d/1RhnMrimZF2VYBGpo0vetWOTsCyEGYmkW/preview",
+                "https://drive.google.com/file/d/1VcYCOy7d8Bj-jZhz0Gy5UTssESR6VAF1/preview",
+                "https://drive.google.com/file/d/1p_JhStCB6I64c501lVyR34fqA-p5pc5l/preview",
+                "https://drive.google.com/file/d/1J1nM_VmwXF5JatJSuykJ-QuLkBIncyNC/preview",
+                "https://drive.google.com/file/d/1EFxaWMaYduQP2TNGr7ESci514KOhDVYQ/preview",
+                "https://drive.google.com/file/d/1xFHvzhzmNG8_X3SUMLxHy5X4HzAhWKn3/preview",
+                "https://drive.google.com/file/d/1vRvEH1m_xZ4ro5d5YtV0fvHGt5h1J0YC/preview",
+                "https://drive.google.com/file/d/1gnITMvVejs4AuAzUPqLLHRdffGx9K16f/preview",
+                "https://drive.google.com/file/d/1lCsw-Wcv5Kns8lLftqndCFSvW57K1GH9/preview",
+                "https://drive.google.com/file/d/1f6UDeEH6xgYEQX1AMjFDu0L1ggbLaGdX/preview",
+                "https://drive.google.com/file/d/1QLfmplQigBYzFweetogXXRQUbahHBuJV/preview",
+                "https://drive.google.com/file/d/13uHp4XglW9vdYmwiwe-5ioseAfdeSymO/preview",
+                "https://drive.google.com/file/d/1OTwqoEhBAjlAsgNvBwQfAiBlO6iIFjCn/preview",
+                "https://drive.google.com/file/d/1RFx6i2BT7hxpErguN9fWf2TBsnJMdU7I/preview",
+                "https://drive.google.com/file/d/1c4uHg0JbNCyK3TgR1MC6S5f7y3ujp6iW/preview",
+                "https://drive.google.com/file/d/1URAFo9SWps7O3jj5-8QHrHjethP1ydIL/preview",
+                "https://drive.google.com/file/d/1qUVHjU4zxWmopOUxubmEWX9nLbp0xwgG/preview",
+                "https://drive.google.com/file/d/198ZdrTDBIsn58fFNo16Y2yVVpgiBi6JX/preview",
+                "https://drive.google.com/file/d/1WtUstBq41uoG-mctnPmj9Drib5JeQjKY/preview",
+                "https://drive.google.com/file/d/1suazQPmXGhdjFzAKYzMlRcHwn6qDQHU5/preview",
+                "https://drive.google.com/file/d/1JU50d-F4gS5ckmCIHCtJpXjcoB08jk5-/preview",
+                "https://drive.google.com/file/d/1UYZjFlPi3nyD4J-_1fFF1ngAy_4vsWTh/preview",
+                "https://drive.google.com/file/d/1vyzJjyHSvMR2PRfWATU9Px4S7QJEma_k/preview",
+                "https://drive.google.com/file/d/1ziYDMwoK_rbSHCN1GdAvCbP4zrIiBEtI/preview"
+            ],
+
+            season_2 : 
+            [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/1eFWc7PRMhtYGlGGUXITj1galC9Me-TKf/preview",
+                "https://drive.google.com/file/d/138llCVAvKmx5CB2CGKnNFsxie5hvaDHZ/preview",
+                "https://drive.google.com/file/d/1GWlYPgsDswDv-AlOfdgMSQyP1cNhVFaA/preview",
+                "https://drive.google.com/file/d/1RJXIvqwFZgOXEp5-Vp3ZnbyjOYJduZa5/preview",
+                "https://drive.google.com/file/d/1vRDZmzd_rMIUFl6M1Kp35ETSq2GMOGg5/preview",
+                "https://drive.google.com/file/d/1ao1uY7nqmaNWSC6pIgZXZkfDPAnj5cEY/preview",
+                "https://drive.google.com/file/d/1IwtsHsA9d3ISI_OWGhZIQtzPYKg9Qoxw/preview",
+                "https://drive.google.com/file/d/1qcas8ky8VCV5XKBgcHEmlU6WSth7-_Kx/preview",
+                "https://drive.google.com/file/d/1nT7Y_8fLZ_Kt_ysuGziO6X-4yrzoN69n/preview",
+                "https://drive.google.com/file/d/1BaDx16fm6wXcUVXn1nIYfWPVFsjBdDaX/preview",
+                "https://drive.google.com/file/d/1oon1qCHWpcLsix0EEs1e-ryQql4XKRin/preview",
+                "https://drive.google.com/file/d/1HtkAbSo78aDsrRVV1pGidvMztM1wBnrT/preview",
+                "https://drive.google.com/file/d/1IHoH1vAWVVSXVbnYoRu7obUre8C9f2Cf/preview",
+                "https://drive.google.com/file/d/17GglOmHMjacRmGqwtazU56KciGCpFod5/preview",
+                "https://drive.google.com/file/d/1ijDYjBTQIHP2C0evjlYwu5a6FINb2rK5/preview",
+                "https://drive.google.com/file/d/1PWpoZiIk2hsSqREITRQmc3fYxZr2lfaD/preview",
+                "https://drive.google.com/file/d/1Z5SAcMYfq8auABYyT7N5c9LgnUANKDSx/preview",
+                "https://drive.google.com/file/d/1hdrN4i8vBBp2BpC_ttsWsvODPNbj14Pz/preview",
+                "https://drive.google.com/file/d/1va6Ibp49iZ0_G1DZ4k0NU0ocz3IzwKPk/preview",
+                "https://drive.google.com/file/d/1buD-ZOnVMvdMdIC0ZkxlaBHlvqdJVogo/preview",
+                "https://drive.google.com/file/d/1-sG90q3JqzVTsi5jjwV5gUcL53F9v8Ky/preview",
+                "https://drive.google.com/file/d/1IJXunpTeF7NXvWAlXql4r9lBzj5yXAGr/preview",
+                "https://drive.google.com/file/d/13j9sim4CE3MgmMlFGl-JcYlAzUQoGlC9/preview",
+                "https://drive.google.com/file/d/1WU7OZhCldQAnb9aq5SO-lji19RagZKLz/preview",
+                "https://drive.google.com/file/d/14doePJnt3u8wHMSfpVqB4e_i7wkUFcWk/preview",
+                "https://drive.google.com/file/d/192qQSBVZOtcpUqzeUy7QSVRtWZNm4Xjd/preview",
+                "https://drive.google.com/file/d/1hkzlE50FyYAz5fpkDzqFLEMg-_p9Xy2C/preview",
+                "https://drive.google.com/file/d/12-3lQmSGOCvKYlM5hnq1642X-_DoO24b/preview",
+                "https://drive.google.com/file/d/1DcDSfIUzhQziYAZwgxL2Ewaojm79D7yV/preview",
+                "https://drive.google.com/file/d/134cxip78fE7ToybMhjJpgemtdW_2UBHJ/preview",
+                "https://drive.google.com/file/d/1RpBHWtzNZSyOSx0-Lpz48V4XhIek5V6n/preview",
+                "https://drive.google.com/file/d/1SQ_9GLn7QRdbOxc-AONk5dWvRIhsSMG7/preview",
+                "https://drive.google.com/file/d/1IuyhCI5DDPaVHRIvhfPPSFw4SqtXfieF/preview",
+                "https://drive.google.com/file/d/1LM1pHSl6_SoiP12__We1T30nyPxWD4Pz/preview",
+                "https://drive.google.com/file/d/126h5ezljc25hrknjHwgk09Ie6y1p6uj-/preview",
+                "https://drive.google.com/file/d/1EigtgzGMNaUmFHw0sgKFahF_F8TKRO_s/preview",
+                "https://drive.google.com/file/d/1jmfu_SKoXXmGsPKqWPAq3GryZ2vnlvIh/preview",
+                "https://drive.google.com/file/d/1sj_LNNZYCN3n3h7wojghs3wPEntTV0cs/preview"
+            ],
+
+            season_3 :
+            [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/1at3QAJRMAgfm0obXuS2fSMqvZ-hR3B9S/preview",
+                "https://drive.google.com/file/d/1ik6egr3R4Csfw6JdxG8UhrRmEMRrx9ws/preview",
+                "https://drive.google.com/file/d/1gphUOl_vo-Beaa_Aabh1c_KDGA5p9yRF/preview",
+                "https://drive.google.com/file/d/1w4NR0NDDWLUx9GDCcZ8I90LG0-xMupIA/preview",
+                "https://drive.google.com/file/d/1LafW-ncxrHi3nxIDtxynI66uJGuwXxpl/preview",
+                "https://drive.google.com/file/d/1-LgzMlLiq-fURgAkxvM9fA5z-umxHLLr/preview",
+                "https://drive.google.com/file/d/1wmOR9wT349kVz0ANIai12MV5sskdUdTV/preview",
+                "https://drive.google.com/file/d/1dkwXDQ1mWo5RmC59Yqc0V3JhIGBfr_od/preview",
+                "https://drive.google.com/file/d/14HvI8dmRepalelUc2eu98jBlfdo09BnO/preview",
+                "https://drive.google.com/file/d/1ugzi2mIJCEb661WHrFqBipAsafSt5Jmw/preview",
+                "https://drive.google.com/file/d/1zYeJXARIitIgXMTjV_KgUUDtB-L38Bu5/preview",
+                "https://drive.google.com/file/d/1X0-fHNR9aoiRNZOOwYhVz-14pbI30P8X/preview",
+                "https://drive.google.com/file/d/12OBuX_igJgWhQ2khSReH588wXykBMPeS/preview",
+                "https://drive.google.com/file/d/1jcQ2jrJsFmaTZRK2M5YZVauzof5PY8IZ/preview",
+                "https://drive.google.com/file/d/1yJcwZi6354pQKuSs1yiSm9EnuMCp4TQW/preview",
+                "https://drive.google.com/file/d/1zyTZuzti_Pt7rdcOXem2OjEMtbIazmP7/preview",
+                "https://drive.google.com/file/d/1d6H1K7kNZpQgUbu4gJLrp7xU2l0xB-4j/preview",
+                "https://drive.google.com/file/d/1A9x7z1dFAEwZFqB3Y7KgcIZBsblRPJne/preview",
+                "https://drive.google.com/file/d/1h8KSe0Jmfb3VKqEtDM6JNKCGobbbTofL/preview",
+                "https://drive.google.com/file/d/1VH-rk6v_oSxQsX0Em3NXOIDhhPB40QN6/preview",
+                "https://drive.google.com/file/d/1aeESVsLXhw3HV13pGGfLrP21bYFhH-0d/preview",
+                "https://drive.google.com/file/d/17h6qDAKi5AelyXP0oiKj5lE4GITgvMeV/preview",
+                "https://drive.google.com/file/d/1Tu2vpSrycgBYewmJfM2jhjsu7IRsML0P/preview",
+                "https://drive.google.com/file/d/1IQ3hca6TURnmj6DYmcdPCKLDpOEvCne-/preview",
+                "https://drive.google.com/file/d/1WDWAV_8TiH6j9Cksmw5SGJLwCJm5HUz8/preview",
+                "https://drive.google.com/file/d/1D8JicutouWhmDaZHyfOGq37kW8ng2uO_/preview",
+                "https://drive.google.com/file/d/1kAi0lqMbfmBlu7rHU8jxL5GhkfSjJoQR/preview",
+                "https://drive.google.com/file/d/1ZmrSxd-wVh2VqOuPm4DXDlPT_CjzYHxg/preview",
+                "https://drive.google.com/file/d/1FAWPNY36Wdme83nTlbtNtvcXcTvQcHhI/preview",
+                "https://drive.google.com/file/d/1z9ACj_JA_ecKHb6QQIZH_CnjeYodWfll/preview",
+                "https://drive.google.com/file/d/1TKsbgZfs6utdsIht2sscwCdrsd4a3Faz/preview",
+                "https://drive.google.com/file/d/1EcD1M_R45Lub2tDow-cOD4C0FEp21Pdq/preview",
+                "https://drive.google.com/file/d/1kC6WgIAJkaLzeRcJJcRBbsLxEfOrikeJ/preview",
+                "https://drive.google.com/file/d/1JcZfZjV_PDRXqIX_CRd-qvURhr6DOSgI/preview",
+                "https://drive.google.com/file/d/1THlvQFRy82GOV87NjQaBpQqH-6z-Yt3L/preview"
+            ],
+
+            season_4 :
+            [
+                "[Start from index 1",
+                "https://drive.google.com/file/d/1vm4pi2GAjSIaaYPfMDgjLlJta7nkpnli/preview",
+                "https://drive.google.com/file/d/1C7Xlo7U3iTx9tTPDGYU3LFSgb9nIP5bG/preview",
+                "https://drive.google.com/file/d/10gRkmBpwfyMb22xDtDfqVqDrLbEqHJh-/preview",
+                "https://drive.google.com/file/d/1Oen6Nq7raGFTjJt4M7-ku8pyLJFMYIT2/preview",
+                "https://drive.google.com/file/d/12lVKIUHf3hBaf8lo3LG8Kq_0k7xIbtb0/preview",
+                "https://drive.google.com/file/d/1TO9TsnghdgVLZh6PWhYjJu_4vAdG4z1A/preview",
+                "https://drive.google.com/file/d/1tM3AGggvxiq-FWtFtrgNCJMKZCWUE3tX/preview",
+                "https://drive.google.com/file/d/1-K6RxuDWwm61qQkTfNsFM4ULJr6YifX6/preview",
+                "https://drive.google.com/file/d/1WDkS2Khfe54Cs0fDRtPDqK4xrTAMb0pq/preview",
+                "https://drive.google.com/file/d/1ounaSbmMBMQcDKEW2xLjJudWKPJ0pzpc/preview",
+                "https://drive.google.com/file/d/19co7of6-tCHnVC0uyKEMirkabQpmTd0K/preview",
+                "https://drive.google.com/file/d/14DVxVpzgayLDezZrxrlwZUV3Cmweq0he/preview",
+                "https://drive.google.com/file/d/10HCLgPtThOpaFYe4CLKe0Afnxtz6XDIS/preview",
+                "https://drive.google.com/file/d/1tOvjoshXCtJmz9EA4yJUd8kjXC-3Boss/preview",
+                "https://drive.google.com/file/d/1oh7DcDY_I8snZkQG8fBm7BtanKIc2vJv/preview",
+                "https://drive.google.com/file/d/1XhcDmQAx683QFYBFrpC9igfQtr0U7PYx/preview",
+                "https://drive.google.com/file/d/1XW4zd6yhTxFc9nvQQX41UJefO1lV9u_g/preview",
+                "https://drive.google.com/file/d/1BFYyxxkNsK0uRJnsxeHMSXKPndNWkTsZ/preview",
+                "https://drive.google.com/file/d/1eIyiYHrMsf0vDCe60DV0gWUwoNPu_T_y/preview",
+                "https://drive.google.com/file/d/14vuVlZMoIHo1y4tWfbxdlO0PF_i2PN8o/preview",
+                "https://drive.google.com/file/d/1pocS8aR2pUH2-3NeLoIZrkvSAtxxjP5h/preview",
+                "https://drive.google.com/file/d/1tgrnMkHm8fr4J7W6qopglAQcqPYvRPXd/preview",
+                "https://drive.google.com/file/d/1vqQtqVGQMnAUwXjM6vUK3kwO6JEJCPoC/preview",
+                "https://drive.google.com/file/d/13-r39DZ1QeEpktiopGq0FJGmyGgC2FXJ/preview",
+                "https://drive.google.com/file/d/1fayLK8bu-Y6X1LlJ45GNcWI142aVVBaJ/preview",
+                "https://drive.google.com/file/d/1t8vdRQDxuNsd1DXneNe-gOWG4XMshjZ6/preview",
+                "https://drive.google.com/file/d/1aPqSWgitaRHGexpzRMwRnzXFqxcBwNCm/preview",
+                "https://drive.google.com/file/d/1OKeOjpc92DLjH4tuimvnpNPTJKoze-3U/preview",
+                "https://drive.google.com/file/d/1V-c2MJjRMouDCXYdMNmY36ZqQpv84dyn/preview",
+                "https://drive.google.com/file/d/1nn9JzB2xUMvnyfNSCiuHaPkwlMT7_GAL/preview"
+            ]
+        },
+
+        HeroAcademia :
+        {
+            season_1 : [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/1S6vJklPnQXS7zKFUvYaDKDXgNMo31qBo/preview",
+                "https://drive.google.com/file/d/1dvr9N6I8ezw0X-sux5asoIkLZithwMZ0/preview",
+                "https://drive.google.com/file/d/1nSoIvlll2ppdCdRnOllMKcLnOm-RPzt6/preview",
+                "https://drive.google.com/file/d/1b6My4V_ykW4887sK_ciVnRlkzEW-H9Lf/preview",
+                "https://mega.nz/embed/2c5DkRbS#t6wkIc0HGddod5vYsYJ9nSBU0GDyF35yYhdre--SuTY",
+                "https://drive.google.com/file/d/1Q-S6SRNHJIBDRCKCLxmYyrTGFxsJGlvB/preview",
+                "https://drive.google.com/file/d/1ImPc7qjspikTV5s1rDp-QmO2jtfocQLE/preview",
+                "https://drive.google.com/file/d/1_L-8L1gEE3vqg8HYfHZf2pUihGGa7K_h/preview",
+                "https://drive.google.com/file/d/1uoz_2IfxGzfjFdt6qHvJo04Jof9MNyr-/preview",
+                "https://drive.google.com/file/d/14om37zy8y2rqaPSeAFmVcF-XOgWb9_8r/preview",
+                "https://drive.google.com/file/d/13Dd8oR__yg55ybMvZS_UgQzTaEty2BQ1/preview",
+                "https://drive.google.com/file/d/1mJg18McpUG5BBDyfyAZbaE_s6ISpNOHO/preview",
+                "https://drive.google.com/file/d/18_LJLs5El3y1IoG01ueJrX81ZZGRgpP0/preview"
+            ]
+        },
+
+        TheAmazingWorldOfGumball :
+        {
+            season_1 :
+            [
+                "[start from index 1]",
+                "https://drive.google.com/file/d/1WpDdaSZANwdfdIMLIdHW8XrPfAm3Jj1B/preview",
+                "https://drive.google.com/file/d/1sZGMwr0dcTfcyRp4FjnczOAcK26mDPmZ/preview",
+                "https://drive.google.com/file/d/1mP6_mWs3PLvtOACvxgsrCoGYmd0v6l6A/preview",
+                "https://drive.google.com/file/d/1Y6sFXEJNwl05_Co4V5d6IM4AM9MGNqmW/preview",
+                "https://drive.google.com/file/d/1XMrKmHfv2GgHCCpVGJiqrcMG2-LSCTeF/preview",
+                "https://drive.google.com/file/d/1Kb7x9rmu4RGI3TuywBTaNTQDFj4suisv/preview",
+                "https://drive.google.com/file/d/1LAw4UVvEqp-Dz6LonY6fybViIm0Fdekn/preview",
+                "https://drive.google.com/file/d/18rO1fbE1jBxtc-_YMGEZWWXPEi7ZCqVF/preview",
+                "https://drive.google.com/file/d/1Zso9YUMEjv4owOQOx5mn3lDCcxSSXME9/preview",
+                "https://drive.google.com/file/d/1Kh2_CpiDJlJ0xaP_40I0wCEaOdXWYjUD/preview",
+                "https://drive.google.com/file/d/1VqOHCxhUlF31W8dHh-O6gnBtW7xnyGBC/preview",
+                "https://drive.google.com/file/d/1EtZ41g5JEro2B9qyUdIFHhxY-ndV2PAI/preview",
+                "https://drive.google.com/file/d/1gAvxoZcyWU9e1Eun_2YBNDVwLY_Zpqqo/preview",
+                "https://drive.google.com/file/d/1F63dhR2GzNNvfw3jLRtt2wmbkz8UMtwk/preview",
+                "https://drive.google.com/file/d/1LWbZYioMz99cFcXyM5guAzO5sPPchC3r/preview",
+                "https://drive.google.com/file/d/1v-GDln0N5Wq1IrrTTJG9y-RvHYjzmrxh/preview",
+                "https://drive.google.com/file/d/1PSqkr5RwfMgwwgLTwr7Djabe8_yxvo_o/preview",
+                "https://drive.google.com/file/d/1BmUlTmkjli_2ZwXxBtG8arKdAIecHhXZ/preview"
+            ],
+
+            season_2 :
+            [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/1b6L910a64d-XfzG81E4Ujf0vtdvBqExF/preview",
+                "https://drive.google.com/file/d/14aWxTaEH2wDq3HuX7qM7GAbSBLce7WGJ/preview",
+                "https://drive.google.com/file/d/1cYpGfVco6OXihGu4FMYvA7-egT6euN5b/preview",
+                "https://drive.google.com/file/d/1gIQ0YN6EPfsXVW9g5g4CzbaESYz6IeIw/preview",
+                "https://drive.google.com/file/d/1eYPB6AQ54m73PKTCI0-iq7SICEtwb_s3/preview",
+                "https://drive.google.com/file/d/1cjtaUyZJKyVo-KHUTPfs9IWUfbnSbNrj/preview",
+                "https://drive.google.com/file/d/17jC5tQvdl31SmIUcEURwTGhMOKntVi6w/preview",
+                "https://drive.google.com/file/d/1Jse_z3XePh7Db6mbv-BI0MopvJfZ538n/preview",
+                "https://drive.google.com/file/d/1F2RKCqIbyPFFi5urjVRylGCmS7xhdJcD/preview",
+                "https://drive.google.com/file/d/1I_tCvGCwN55p6f-mhb8OkAnYGAZAu2GV/preview",
+                "https://drive.google.com/file/d/1vIR58svJFakwM7RvY8_ae3JCpuyle8CB/preview",
+                "https://drive.google.com/file/d/1uAFIlBX6j3U17yFdRttHI88sYauuyr2h/preview",
+                "https://drive.google.com/file/d/1UpZYYazGEMSyquAwpfd_CfuQp2CDx-Hd/preview",
+                "https://drive.google.com/file/d/1Xx_5JzqeDMavKvSWBx3zHEDFRQC5fZ-T/preview",
+                "https://drive.google.com/file/d/1CAcVdcZKF6Oa9g1DgboYpt3-M0yC__6U/preview",
+                "https://drive.google.com/file/d/19apTdVlNK6MEZiZG4pqiR4fo_2I5c75t/preview",
+                "https://drive.google.com/file/d/1179PYZna5inrdnOq40XVAHJhXUEUR1mH/preview",
+                "https://drive.google.com/file/d/1Otco4HOLd40AEVdK3aHVt-G7lNmmEeGE/preview",
+                "https://drive.google.com/file/d/1iTyDlTmV-KqJ5l11QuQjr3ogyOujo1Jj/preview",
+                "https://drive.google.com/file/d/1l2cEageWwhSBxUwf1bUnwGrpYQeEDt9W/preview"
+            ],
+
+            season_3 : 
+            [
+                "[Start from index 1]",
+                "https://drive.google.com/file/d/1TUiw2RVrk2MISKhWs6qOqRMk_g9UgB6D/preview",
+                "https://drive.google.com/file/d/1iJpzSYyQmC-Kw7LtCsYMoqS7de2Zy_zc/preview",
+                "https://drive.google.com/file/d/147y95dPkxTDspZ13wYdmdbmbVLBBksLj/preview",
+                "https://drive.google.com/file/d/1DfK-Ruk7GJo387_FDFLmSBt52fBztTfa/preview",
+                "https://drive.google.com/file/d/1txgJiRf63D8nEP2aZJjTjUteoSaoodpq/preview",
+                "https://drive.google.com/file/d/1n2Da7OxWPwHuZBThf4nUJDzke1KSZCvA/preview",
+                "https://drive.google.com/file/d/1VtkAI3ZTjet-ITuPcQoAFv5v5Ddkq_H0/preview",
+                "https://drive.google.com/file/d/1L8KLFzDB2dYLbt9d4vxBhLCCN0-kveXJ/preview",
+                "https://drive.google.com/file/d/1SvttrykaOU3h3tPdJ62Yfq-PHoiPYZOH/preview",
+                "https://drive.google.com/file/d/1HchYFbFP07AnIuag2MqJxGDTpZkyNHlA/preview",
+                "https://drive.google.com/file/d/1ZwGqgMrGhc9Y8KTAWBwOfB84j015u0wW/preview",
+                "https://drive.google.com/file/d/1J32fVh4QpdmAoDmkdedMFBz1kk38WaJ8/preview",
+                "https://drive.google.com/file/d/1qTrTOGLKcqUtfGXFT0ruIt7USQx7oXoC/preview",
+                "https://drive.google.com/file/d/1OGGEaw9_qz7z3Sks_h65_0O3A8UF0fZA/preview",
+                "https://drive.google.com/file/d/1SKQ984-XTopAXd1nCwtlRmkxPC5tTZv3/preview",
+                "https://drive.google.com/file/d/1rRKSVbrxKrylUdc3yPntGpyKSBKXp2Oz/preview",
+                "https://drive.google.com/file/d/1ksIeJbTaNWaOiFDCxfKJkBaeNCoHvKwj/preview",
+                "https://drive.google.com/file/d/1y2Y-Mh7ghpH1-Td0drzbT2LZqJIXDfvS/preview",
+                "https://drive.google.com/file/d/1JYJxGjS5oRxRdXdDo3nZnnGtann9B4z8/preview",
+            ]
         }
     };
+
     
     // Create elements for the season and episodes
     const serie_links_holder = document.getElementById("serie_links_holder");
@@ -697,7 +1228,6 @@ function updateVideo() {
     for (let season in  serie_episode_title[serie]) {
         
         //Access the episode from gravity falls 
-        console.log("Season", season_number)
         //Display the title first
         let seasonElement = document.createElement("p");
         seasonElement.id = "season_number_id";
@@ -714,13 +1244,16 @@ function updateVideo() {
             episodeButton.id = `serie_button_${i}`;
             episodeButton.className = "serie_button_class";
             episodeButton.textContent = `Episode: ${i} Title: ${serie_episode_title[serie][season][i]}`;
-    
+            
             // Attach click event to the button to update the iframe source
             episodeButton.addEventListener('click', function () {
                 iframe.src = serie_episode_links[serie][season][i] || "https://www.youtube.com/embed/206ZciQfaTo?si=2aphoVwleM7WwD3P";
                 iframe.scrollIntoView({behavior : 'smooth' }); // Learn more about Page Scrolling in JavaScript
                 const title_element = document.getElementById("title");
                 title_element.textContent = `Giveth Movies - Serie Page --> Episode: ${i} Title: ${serie_episode_title[serie][season][i]}`;
+
+                //add
+                document.getElementById('serie_title_h2').textContent = `Episode: ${i} Title: ${serie_episode_title[serie][season][i]}`
                 
                 //Changing the url 
                 // Update the URL without adding extra parameters
@@ -729,19 +1262,21 @@ function updateVideo() {
 
                 // Remove old Episode parameter
                 params.delete('Episode');
-
+                
                 // Add new Episode parameter
                 params.set('Episode', `${i}_Title=${serie_episode_title[serie][season][i]}`);
-
+                
                 // Update the URL in the browser without reloading the page
                 window.history.replaceState({}, '', `${url.pathname}?${params}`);                
             });
-    
+            
             serie_links_holder.appendChild(episodeButton);
+        
         }
 
         season_number++;
     }
+
 
     // Set the initial iframe source and title
     if (serie_title[serie]) {

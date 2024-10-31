@@ -290,6 +290,11 @@ header
     min-height: 100%;   
 }
 
+.contact-heading
+{
+    margin: 25px 0 25px 0;
+}
+
 form
 {
     width: 90%;
@@ -411,6 +416,18 @@ footer
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .contact-heading
+    {
+        font-size: 1.2rem;
+    }
+
+    .contact_link
+    {
+        font-family: 'quicksand', serif;    
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
 
     #message, #name, #email, #subject
     {

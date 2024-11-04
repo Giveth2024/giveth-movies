@@ -41,8 +41,21 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
-    height: 40px;
+    padding: 0 20px;
+    height: 50px;
+    transition: all 0.3s;
+}
+
+.nav_links:hover
+{
+    background-color: #EB5E28;
+    color: black;
+}
+
+.nav_links:active
+{
+    background-color: transparent;
+    color: whitesmoke;
 }
 
 /* This is the title and logo container */
@@ -157,7 +170,7 @@ header
     padding: 20px 10px;
 }
 
-.h1_movie_title, .h1_serie_title
+.h1_movie_title, .h1_serie_title , #Ad_title
 {
     font-size: 3rem;
     margin: 15px 0;
@@ -346,8 +359,8 @@ form
     border-top: 0;
 }
 
-/* This is for the Contact page */
-.submit_link
+/* This is for the Contact page With the Ad Button for Series Page*/
+.submit_link, #id_redirect
 {
     text-decoration: none;
     border: none;
@@ -365,15 +378,16 @@ form
     font-family: 'quicksand', serif;
 }
 
-.submit_link:hover
+.submit_link:hover, #id_redirect:hover
 {
     transform: scale(1.03);
 }
 
-.submit_link:active
+.submit_link:active, #id_redirect:hover
 {
     transform: scale(1);
 }
+
 .contact_link
 {
     font-family: 'quicksand', serif;
@@ -400,6 +414,17 @@ form
     transform: scale(1);
 }
 
+/* Fix The Ad State for Series */
+#Ad_State
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    margin: 25px 0;
+}
 
 
 footer
@@ -411,11 +436,21 @@ footer
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    text-align: center;
 }
 
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    #id_redirect
+    {
+        padding: 10px 15px;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        font-family: 'quicksand', serif;
+    }
+
     .contact-heading
     {
         font-size: 1.2rem;
@@ -443,7 +478,7 @@ footer
         font-size: 1.3rem;
     }
 
-    .h1_movie_title, .h1_serie_title {
+    .h1_movie_title, .h1_serie_title, #Ad_title {
         font-size: 2rem;
         margin: 15px 0;
     }
@@ -527,7 +562,8 @@ footer
         font-size: 1.2rem;
     }
 
-    .h1_movie_title, .h1_serie_title {
+    .h1_movie_title, .h1_serie_title, #Ad_title
+     {
         font-size: 2.5rem;
         margin: 15px 0;
     }
@@ -540,6 +576,28 @@ footer
 
 @media screen and (width >= 2000px)
 {
+    #Ad_State
+    {
+        margin-top: 300px;
+        margin-bottom: 75px;
+    }
+
+    #id_redirect
+    {
+        padding: 20px 60px;
+        font-size: 3rem;
+        margin-top: 20px;
+        font-family: 'quicksand', serif;
+    }
+
+    .contact_link
+    {
+        padding: 20px 60px;
+        font-size: 4rem;
+        margin-top: 30px;
+
+    }
+
     header
     {
         height: 200px;
@@ -583,7 +641,7 @@ footer
         font-size: 5rem;
     }
 
-    .movie_main, .serie_frame
+    .movie_main
     {
         height: 3000px;
         display: flex;
@@ -592,22 +650,47 @@ footer
         padding: 20px 10px;
     }
 
+    .serie_frame {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        aspect-ratio: 16/9;
+        border: 2px solid white;
+    }
+
     .movie_frame, .serie_frame
     {
         margin-top: 300px;
         transform: scale(2.25);
     }
 
-    .h1_movie_title, .h1_serie_title
+    .h1_movie_title, .h1_serie_title, #Ad_title
     {
-        margin-top: 350px;
+        margin-top: 100px;
         font-size: 8rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .season_number_class
+    {
+        font-size: 6rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .serie_button_class
+    {
+        border: 6px solid #EB5E28;
+        font-size: 4rem;
+        margin: 20px 0;
+        width: 100%;
+        height: 180px;
+        padding: 20px;
         font-family: 'Quicksand', sans-serif;
     }
 
     .text
     {
-        font-size: 3rem;
+        font-size: 4rem;
         margin-top: 50px;
         font-family: 'Quicksand', sans-serif;
     }

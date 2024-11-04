@@ -66,3 +66,11 @@ function sendEmail(event)
 
 // Attach the sendEmail function to the form submit event
 // document.getElementById('contact-form').addEventListener('submit', sendEmail);
+footer_text = document.querySelector(`.text`);
+
+education_element = document.createElement("p");
+education_element.id = "educ_id";
+education_element.textContent = "This website is for Educational Purposes Only";
+education_element.style.fontSize = "12.5px";
+education_element.style.marginTop = "5px"
+footer_text.appendChild(education_element);

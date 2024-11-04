@@ -24,16 +24,54 @@
     <main class="serie_main">
         <!-- Responsive Iframe -->
         <iframe class="serie_frame" id="serie_iframe"  allowfullscreen></iframe> 
-        <script>
-            document.getElementById("serie_iframe").src = "https://www.youtube.com/embed/206ZciQfaTo?si=2aphoVwleM7WwD3P";
+        <div id="Ad_State">
+            <p id="Ad_title"></p>
+            <button id="id_redirect" type="button" onclick="Redirect()">Go To Advertisement</button>
+        </div>
+
+        <h1 class="h1_serie_title" id="serie_title">Parkitect</h1>
+
+        
+        <h2 class="h1_serie_title" id="serie_title_h2">Click On An Episode First</h2>
+        
+        <div class="serie_links_holder" id="serie_links_holder"></div>
+        
+        <script>            
+            // Give the Ad Title the current title
+            const AdTitle = document.getElementById("Ad_title");
+            const IdRedirectButton = document.getElementById("id_redirect")
+
+            // create an Object to Store the Ad Title and its iframe link and button link
+            const Ad = {
+                Ad_1: ["Parkitect", "https://www.youtube.com/embed/206ZciQfaTo?si=2aphoVwleM7WwD3P&autoplay=1&mute=1", "https://www.themeparkitect.com/"],
+                Ad_2: ["Coca Cola", "https://www.youtube.com/embed/0ubFwQ_np2g?si=9awgCIqjkX3f2Gr3&autoplay=1&mute=1", "https://www.coca-cola.com/xe/en"]
+                
+            }
+
+            // Function to generate a random integer within a specified range
+            function getRandomIntInclusive(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+
+            // Generate a random ad number based on the number of ads available
+            let randomIntInclusive = getRandomIntInclusive(1, Object.keys(Ad).length); // 1 to number of ads
+            // console.log("Random Ad Number:", randomIntInclusive);
+
+            // Select the ad based on the random number
+            const selectedAd = Ad[`Ad_${randomIntInclusive}`];
+
+            // Update the title, iframe, and button redirect using the selected ad
+            AdTitle.textContent = selectedAd[0];
+            document.getElementById("serie_iframe").src = selectedAd[1];
+
+            function Redirect() {
+                window.location.href = selectedAd[2];
+            }
+
+            // Call Redirect() on button click or as needed
+
         </script>
         
-        <h1 class="h1_serie_title" id="serie_title">Steven Universe: The series</h1>
-
-        <h2 class="h1_serie_title" id="serie_title_h2">Ad Playing</h2>
-
-        <div class="serie_links_holder" id="serie_links_holder"></div>
-
         <!-- Buttons below the movie title
         <p class="text">Watch Using:</p>
         <div class="buttons_div">

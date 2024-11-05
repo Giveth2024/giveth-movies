@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
     <script src="../Scripts/movie_script.js" defer></script>
+    <script src="../Scripts/movie_ad_script.js" defer></script>
     <title>Giveth Movies - Movie</title>
     <style>
 
@@ -43,6 +44,53 @@
             <!-- Add more alternatives here -->
         </div>
     </main>
+
+    <script> 
+        // create a div element
+        const div = document.createElement("div");
+        div.id = "pop_Ad";
+
+        document.body.appendChild(div)
+        const div_id = document.getElementById(`pop_Ad`);
+
+        const p = document.createElement("p");
+        p.id = "par_ad_title";
+        p.textContent = "Ad Title";
+
+        //Create a button to go to ad
+        ad_button = document.createElement("button");
+        ad_button.id = "button_ad_redirect";
+        ad_button.textContent = "Go To Advertisement";
+        ad_button.setAttribute("onclick", "Redirect_Movie_Ad()");
+        
+        // create a button that will hold our divs 
+        div_holder = document.createElement("div");
+        div_holder.id = "button_container";
+        
+        //Create a button to close the ad pop
+        close_button = document.createElement("button");
+        close_button.id = "button_close";
+        close_button.textContent = "Skip";
+        close_button.setAttribute("onclick", "Close_PopUp()")
+        
+        
+        // Create an iframe element and then add a youtube video to it
+        ad_iframe = document.createElement("iframe");
+        ad_iframe.id = "serie_iframe";
+        ad_iframe.className = "serie_frame";
+        ad_iframe.setAttribute("frameborder", "1");
+        ad_iframe.setAttribute("allowfullscreen", "true");
+        ad_iframe.setAttribute("src", "")
+        
+        // let our frame be the child of the div
+        div.appendChild(ad_iframe);
+        div.appendChild(p);
+        div.appendChild(div_holder)
+
+        //let our buttons be inside  adiv
+        div_holder.appendChild(ad_button);
+        div_holder.appendChild(close_button);
+    </script>
 
     <footer>
         <!-- Footer Content -->

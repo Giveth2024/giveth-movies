@@ -43,12 +43,6 @@
             NextGen : ["https://drive.google.com/file/d/1lf72MVzZOAvIg1IIGIyumckA1FVqEzo6/preview"]
         };
         
-        //Links for watching ads
-        const Ads_Sources = {
-            Parkitect : "https://www.youtube.com/embed/206ZciQfaTo?si=2aphoVwleM7WwD3P"
-            
-        };
-        
         //Links for downloading videos.
         const Download_links =
         {
@@ -113,14 +107,14 @@
     else
     {
         //Display an Add
-        iframe.src = Ads_Sources.Parkitect;
+        console.log("Contact developer")
     }
 }
 
 //Return the value from the iframe source and send it to the Drive Function Click event.
 function Drive_Function_Value()
 {
-        return iframe.src;
+    return iframe.src;
 }
 
 // Call the function to do its thing when the page loads

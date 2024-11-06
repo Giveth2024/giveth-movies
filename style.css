@@ -23,6 +23,8 @@ body
 
 header
 {
+    position: sticky;
+    top: 0;
     height: 80px;
     width: 100%;
     background-color: #403D39;
@@ -31,6 +33,7 @@ header
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .link_holder
@@ -461,7 +464,6 @@ form
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
 }
 
 #par_ad_title

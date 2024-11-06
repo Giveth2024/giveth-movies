@@ -534,6 +534,7 @@ footer
         right: 0;
         background-color: #333;
         width: 100%;
+        z-index: 1;
     }
 
     .link_holder.active {

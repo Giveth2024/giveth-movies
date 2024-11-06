@@ -23,7 +23,6 @@ body
 
 header
 {
-    /* border: 3px solid blue; */
     height: 80px;
     width: 100%;
     background-color: #403D39;
@@ -34,17 +33,27 @@ header
     align-items: center;
 }
 
+.link_holder
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav_links
 {
     text-decoration: none;
     color: whitesmoke;
-    /* border: 2px solid pink; */
+    font-family: 'Quicksand', serif;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
     height: 50px;
     transition: all 0.3s;
+    margin: 5px;
 }
 
 .nav_links:hover
@@ -59,10 +68,19 @@ header
     color: whitesmoke;
 }
 
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#hamburger-icon
+{
+    display: none;
+}
+
 /* This is the title and logo container */
 .title-logo
 {
-    /* border: 2px solid green; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -434,7 +452,7 @@ form
     position : absolute;
     top : 50%;
     left : 50%;
-    width : 95%;
+    width : 98%;
     height : max-content;
     transform : translate(-50%, -50%);
     background-color : #403D39;
@@ -443,6 +461,7 @@ form
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
 }
 
 #par_ad_title
@@ -494,6 +513,45 @@ footer
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    .nav_links
+    {
+        font-family: 'Quicksand', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        height: 50px;
+        transition: all 0.3s;
+        width: 100%;
+    }
+    
+    .link_holder {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+    }
+
+    .link_holder.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    #hamburger-icon
+    {
+        display: block;
+        padding: 10px;
+        background-color: #252422;
+        color: #EB5E28;
+    }
+
 
     #button_close, #button_ad_redirect
     {

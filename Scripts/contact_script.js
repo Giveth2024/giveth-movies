@@ -74,3 +74,11 @@ education_element.textContent = "This website is for Educational Purposes Only";
 education_element.style.fontSize = "12.5px";
 education_element.style.marginTop = "5px"
 footer_text.appendChild(education_element);
+
+// Toggle the menu when the hamburger icon is clicked
+const menu = document.getElementById('menu');
+const hamburgerIcon = document.getElementById('hamburger-icon');
+
+hamburgerIcon.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});

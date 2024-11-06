@@ -1287,6 +1287,15 @@ function updateVideo() {
     }
 }
 
+// Function to handle URL parameter changes without reloading the page
+window.addEventListener('popstate', updateVideo);
+
+// Call updateVideo when the page loads to set the initial video
+window.onload = function() {
+    updateVideo();
+};
+
+
 // Return the value from the iframe source and send it to the Drive Function Click event
 function Drive_Function_Value() {
     const iframe = document.getElementById("serie_iframe");
@@ -1312,3 +1321,10 @@ education_element.style.fontSize = "12.5px";
 education_element.style.marginTop = "5px"
 footer_text.appendChild(education_element);
 
+// Toggle the menu when the hamburger icon is clicked
+const menu = document.getElementById('menu');
+const hamburgerIcon = document.getElementById('hamburger-icon');
+
+hamburgerIcon.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});

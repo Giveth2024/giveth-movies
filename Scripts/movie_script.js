@@ -1,14 +1,10 @@
-//Get the id of the iframe
-// iframe = document.getElementById("movie_iframe");
-
-    
-    
-    //Funtion to extract the url video parameter name
-    function getUrlParameter(name)
-    {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(name);
-    }
+  
+//Funtion to extract the url video parameter name
+function getUrlParameter(name)
+{
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
     
     // Function to be updated based on the video parameter
     function updateVideo()
@@ -111,16 +107,29 @@
     }
 }
 
+// Function to handle URL parameter changes without reloading the page
+window.addEventListener('popstate', updateVideo);
+
+// Call updateVideo when the page loads to set the initial video
+window.onload = function() {
+    updateVideo();
+};
+
 //Return the value from the iframe source and send it to the Drive Function Click event.
 function Drive_Function_Value()
 {
     return iframe.src;
 }
 
-// Call the function to do its thing when the page loads
-window.onload = updateVideo()
-
 function Drive_Function()
 {
     iframe.setAttribute("src" , Drive_Function_Value());
 }
+
+// Toggle the menu when the hamburger icon is clicked
+const menu = document.getElementById('menu');
+const hamburgerIcon = document.getElementById('hamburger-icon');
+
+hamburgerIcon.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});

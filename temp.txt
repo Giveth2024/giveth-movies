@@ -1,0 +1,42 @@
+// Variables
+divElement = document.getElementById("results-container");
+
+// function to get the input value
+function submitFunction()
+{
+    input_value = document.getElementById("movie_or_serie_name").value;
+    //format the input value to remove all spaces and let it be lowercase
+    return input_value
+}
+
+//function to store the movies and series in an array
+function storeContent()
+{   //movie_name, image_path, iframe_src, download_link 
+    content = 
+    {
+        movies : {
+            artemisfowl : ["Artemis Fowl", "../Images/Movie Images/Artemis.jpg", ["https://drive.google.com/file/d/1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA/preview"], ["https://drive.usercontent.google.com/download?id=1WDEjvBOd2_7oj0T4IHrlsui2Fy4r4KLA&export=download&authuser=0"]],
+            atlas : ["Atlas", "../Images/Movie Images/Atlas.jpg", ["https://drive.google.com/file/d/1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j/preview"], ["https://drive.usercontent.google.com/download?id=1GTpEEKstrYEdYh-adDQdzOM2yX8TMP0j&export=download&authuser=0"]],
+        },
+
+        series :
+        {
+            stevenuniverse : [
+                
+            ]
+        }
+    }
+}
+
+//if the input value == key of the movie object
+//should redirect to results.html else wrong input
+/* if should create a link tags for every occurrnce if present and inside the link it should contain the movie image and name and when clicked, 
+it should update the url to http://127.0.0.1:5500/Movie_webpages/Movie.html?movie={object_key},moviename,drive_link,downloadlink
+
+drive_link to update the id="movie_iframe" src attribute in movie.html
+drive_link will also be stored in a Drive_Function() so that when clicked it updates the "movie_iframe" src attribute
+download link will be set as the value for the href attribute in a tag id="movie_download_link"
+movie_name will update the movie title with id="movie_title"
+*/
+//If the link is clicked on the results.html, redirect to Movie.html and update all the elements i have mentioned above
+

@@ -3,7 +3,9 @@
 function getUrlParameter(name)
 {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
+    let paramValue = urlParams.get(name);
+    return paramValue;
+
 }
     
     // Function to be updated based on the video parameter
@@ -88,6 +90,26 @@ function getUrlParameter(name)
             NextGen : "Next Gen"
         };
 
+        const imagePaths = 
+        {
+            Blended : "../Images/Movie Images/Blended.jpg"
+        }
+    
+        // Look for the movie title and compared it with that of the searhced url
+        titles_Arr = Object.values(titles);
+        titles_Arr_Length = titles_Arr.length;
+
+        for (let i = 0; i < titles_Arr_Length; i++)
+        {
+            temp_value = titles_Arr[i].split(' ').join('').trim().toLowerCase()
+            const temp_movie = movie.split(' ').join('').trim().toLowerCase()
+            if (`${temp_movie}` === temp_value)
+            {
+                getMovieName(temp_value, imagePaths.Blended);
+                break;
+            }
+        }
+
         // Set the iframe based on the selected video
     if (movieSources[movie])
     {
@@ -103,7 +125,7 @@ function getUrlParameter(name)
     else
     {
         //Display an Add
-        console.log("Contact developer")
+        console.log("Contact developer");
     }
 }
 
@@ -114,6 +136,7 @@ window.addEventListener('popstate', updateVideo);
 window.onload = function() {
     updateVideo();
 };
+
 
 //Return the value from the iframe source and send it to the Drive Function Click event.
 function Drive_Function_Value()
@@ -133,3 +156,35 @@ const hamburgerIcon = document.getElementById('hamburger-icon');
 hamburgerIcon.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
+
+
+//Create a return functiion
+function getMovieName(movie_name)
+{
+    submitFunction(movie_name)
+}
+
+//From the search page filter the input
+function submitFunction(movie_title)
+{
+    // Access a title form the get Movie function
+    input = document.getElementById("movie_or_serie_name").value.trim().toLowerCase().replace(/\s+/g, '');;
+    // capitalize the value and remove any spaces
+
+    if (movie_title != input)
+    {
+        alert("Redirecting");
+        window.location.href = "../Other_Webpages/results.html"; //Redirect the user to the searched page url
+    }
+    else
+    {
+        alert("Doesn't exist");
+    }
+
+}
+
+
+if (document.getElementById("results"))
+{
+    console.log("Hello World");
+}

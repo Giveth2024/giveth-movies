@@ -1,5 +1,5 @@
 Giveth Movies
 
-Added more movies and series.
+Fixed the Entire Web Page
 
-Added a noew section called New on Giveth Movies
+Have Fun Watching

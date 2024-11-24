@@ -10,22 +10,22 @@ function sendEmail(event)
     
     if(name.trim() === "")
     {
-        window.alert("Name Field is Empty!! Try Entering your name...")
+        window.alert("Name Field is Empty!! Try Entering your name...");
         window.location.href = "../Other_Webpages/Contact.html"
     }
     if(subject.trim() === "")
     {
-        window.alert("Subject Field is Empty!! Try Entering your name...")
+        window.alert("Subject Field is Empty!! Try Entering your name...");
         window.location.href = "../Other_Webpages/Contact.html"
     }
     else if(email.trim() === "")
     {
-        window.alert("Email Field is Empty!! Try Entering your name...")
+        window.alert("Email Field is Empty!! Try Entering your name...");
         window.location.href = "../Other_Webpages/Contact.html"
     }
     else if(body.trim() === "Enter your message here...")
     {
-        window.alert("Message Field must be changed!! Try Entering your name...")
+        window.alert("Message Field must be changed!! Try Entering your name...");
         window.location.href = "../Other_Webpages/Contact.html"
     }
     else

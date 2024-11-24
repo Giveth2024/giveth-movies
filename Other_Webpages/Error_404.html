@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
-    <script src="../Scripts/movie_script.js" defer></script>
     <title>Giveth Movies - Watch and Downlod Movies...</title>
     <style>
         .main_home
@@ -140,21 +139,32 @@
             <h3 class="title">Giveth Movies</h3>
         </div>
         <div class="link_holder" id="menu">
-            <a href="../index.html" class="nav_links">Home</a>
-            <a href="../Other_Webpages/Error_404.html" class="nav_links">Movies</a>
-            <a href="../Other_Webpages/Error_404.html" class="nav_links">Series</a>
+            <a href="../index.html" class="nav_links">Search</a>
+            <a href="../Other_Webpages/home.html" class="nav_links">Home</a>
+            <a href="../Movie_webpages/MovieList.html" class="nav_links">Movies</a>
+            <a href="../Serie_webpages/SerieList.html" class="nav_links">Series</a>
         </div>
         <i class="fa-solid fa-bars hamburger"  id="hamburger-icon"></i>
     </header>
     <main class="main_home">
         <h1 class="error_heading">404</h1>
         <p class="page_not_found">Hmmm! YOU LOST?<span class="blinking_underscore">_</span></p>
-        <a href="../index.html" class="home_link">Go Home</a>
+        <a href="../Other_Webpages/home.html" class="home_link">Go Home</a>
     </main>
     <footer>
         <!-- Footer Content -->
          <p class="text">Website made by: <span style="color: #EB5E28; font-weight: bolder;"><u>Giveth Movies</u></span></p>
          <a href="../Other_Webpages/Contact.html" class="contact_link">Contact Us</a>
     </footer>
+
+    <script>
+        // Toggle the menu when the hamburger icon is clicked
+        const menu = document.getElementById('menu');
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+
+        hamburgerIcon.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>

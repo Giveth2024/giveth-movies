@@ -1,48 +1,5 @@
 try
 {
-    let failed = document.getElementById("failed");
-    failed.style.display = "none";
-    let item_title = undefined;
-    let item_src = undefined;
-    let item_image = undefined;
-    let item_iframe = undefined;
-    let item_download = undefined;
-    
-    // Toggle the menu when the hamburger icon is clicked
-    const menu = document.getElementById('menu');
-    const hamburgerIcon = document.getElementById('hamburger-icon');
-    
-    hamburgerIcon.addEventListener('click', () => {
-        menu.classList.toggle('active');
-    });
-    
-    //Decrypt the content
-    //Get the searched value
-    let urlValue = new URL(window.location.href);
-    urlValue = urlValue.searchParams.get("searchValue");
-    
-    let encryptedText = urlValue;
-    
-    const originalAlphabet = "abcdefghijklmnopqrstuvwxyz";
-    const substitutedAlphabet = "zyxwvutsrqponmlkjihgfedcba"; // Reversed alphabet for this example
-    
-    // Decryption function
-    function decrypt(encryptedText) {
-        return encryptedText
-            .split("")     // Split text into individual characters
-            .map(char => {
-                // Find the index of the character in the substituted alphabet
-                const index = substitutedAlphabet.indexOf(char);
-                // Replace with the corresponding character in the original alphabet
-                return index !== -1 ? originalAlphabet[index] : char; // Keep non-alphabet characters as is
-            })
-            .join("");     // Rejoin the decrypted characters into a string
-    }
-    
-    const decryptedText = decrypt(encryptedText);
-    
-    
-    //function to store the movies and series in an array
     function storeMoviesContent()
     {   //movie_name, image_path, iframe_src, download_link 
         movies = {
@@ -750,10 +707,49 @@ try
     
         return series
     }
-    
+
     moviesObject = storeMoviesContent();
     seriesObject = storeSeriesContent();
+
+    localStorage.setItem("movies_object", JSON.stringify(moviesObject));
+    localStorage.setItem("series_object", JSON.stringify(seriesObject));
     
+    // let failed = document.getElementById("failed");
+    // failed.style.display = "none";
+    let item_title = undefined;
+    let item_src = undefined;
+    let item_image = undefined;
+    let item_iframe = undefined;
+    let item_download = undefined;
+    
+    
+    //Decrypt the content
+    //Get the searched value
+    let urlValue = new URL(window.location.href);
+    urlValue = urlValue.searchParams.get("searchValue");
+    
+    var encryptedText = urlValue ?? "default value";
+    
+    const originalAlphabet = "abcdefghijklmnopqrstuvwxyz";
+    const substitutedAlphabet = "zyxwvutsrqponmlkjihgfedcba"; // Reversed alphabet for this example
+    
+    // Decryption function
+    function decrypt(encryptedText) {
+        return encryptedText
+            .split("")     // Split text into individual characters
+            .map(char => {
+                // Find the index of the character in the substituted alphabet
+                const index = substitutedAlphabet.indexOf(char);
+                // Replace with the corresponding character in the original alphabet
+                return index !== -1 ? originalAlphabet[index] : char; // Keep non-alphabet characters as is
+            })
+            .join("");     // Rejoin the decrypted characters into a string
+    }
+    
+    var decryptedText = decrypt(encryptedText);
+    
+    
+    //function to store the movies and series in an array
     
     // function to sort the content array and get what we want
     function getContent(text, anObject, aSeriesObject)
@@ -837,8 +833,8 @@ try
         }
         else
         {
-            failed.style.display = "block";
-            failed.textContent = `No value for ${text} found in the library. Try again or contact the developer for any suggestions via the contact page...`;
+            // failed.style.display = "block";
+            // failed.textContent = `No value for ${text} found in the library. Try again or contact the developer for any suggestions via the contact page...`;
         }
                     
     }
@@ -919,10 +915,9 @@ try
         localStorage.setItem("serie_info", JSON.stringify(info));
     }
        
-    localStorage.setItem("movies_object", JSON.stringify(moviesObject));
-    localStorage.setItem("series_object", JSON.stringify(seriesObject));
+
 }
 catch (error)
 {
-    console.log("All errors handled");
+    console.log("All errors handled:", error);
 }

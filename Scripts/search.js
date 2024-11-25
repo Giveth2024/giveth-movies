@@ -24,8 +24,20 @@ try
             riseoftheteenagemutantninjaturtlesthemovie : [["Rise Of The Teenage Mutant Ninja Turtles The Movie", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images/Movie Images/Rise_of_teenage_mutant_ninja_turtles.jpg", "https://drive.google.com/file/d/1yvkCaibIUoV6AhLhIun3LzhNlhVzCb5u/preview", "https://drive.usercontent.google.com/download?id=1yvkCaibIUoV6AhLhIun3LzhNlhVzCb5u&export=download&authuser=0"]],
             woodywoodpeckergoestocamp : [["Woody Wood Pecker Goes To Camp", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images/Movie Images/Woody_Wood_Pecker_Goes_To_Camp.jpg", "https://drive.google.com/file/d/1AM6InMumv5r500GNtLDdUw4S266tyOZz/preview", "https://drive.usercontent.google.com/download?id=1AM6InMumv5r500GNtLDdUw4S266tyOZz&export=download&authuser=0"]],
             nextgen : [["Next Gen", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images/Movie Images/Next Gen.jpg", "https://drive.google.com/file/d/1lf72MVzZOAvIg1IIGIyumckA1FVqEzo6/preview", "https://drive.usercontent.google.com/download?id=1lf72MVzZOAvIg1IIGIyumckA1FVqEzo6&export=download&authuser=0"]],
-    
-    
+            legomonkiekidembraceyourdestiny : [["Lego Monkie Kid Embrace Your Destiny", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images/Movie Images/EmbraceYourDestiny.jpg", "https://drive.google.com/file/d/1trS8OqH_VmkKnAb_uZomxGAbMTjtCIz9/preview", "https://drive.usercontent.google.com/download?id=1trS8OqH_VmkKnAb_uZomxGAbMTjtCIz9&export=download&authuser=0"]],
+            legomonkiekidtheemperorswrath : [["Lego Monkie Kid The Emperor's Wrath", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images/Movie Images/Emperor_Wrath.jpg", "https://drive.google.com/file/d/1jQpNAaqZcxR9WwKoK-wm7brp88oyBuZg/preview", "https://drive.usercontent.google.com/download?id=1jQpNAaqZcxR9WwKoK-wm7brp88oyBuZg&export=download&authuser=0"]],
+            legomonkiekidaheroisborn : [["Lego Monkie Kid A Hero Is Born", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images/Movie Images/A_Hero_Is_Born.jpg", "https://drive.google.com/file/d/1aU1lkzskBt9G6qg8hGiMjMd1bKp86lFU/preview", "https://drive.usercontent.google.com/download?id=1aU1lkzskBt9G6qg8hGiMjMd1bKp86lFU&export=download&authuser=0"]],
+            legomonkiekidrevengeofthespiderqueen : [["Lego Monkie Kid Revenge Of The Spider Queen", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/RevengeOfTheSpiderQueen.jpg", "https://drive.google.com/file/d/1QcsjySoH1QmFb7RbAxH4fSrn_GtjL9g1/preview", "https://drive.usercontent.google.com/download?id=1QcsjySoH1QmFb7RbAxH4fSrn_GtjL9g1&export=download&authuser=0"]],
+            luck : [["Luck", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/Luck.jpg", "https://drive.google.com/file/d/15Gsaz6aLyLHSYBp1Uws4XB7LuO8vLoKU/preview", "https://drive.usercontent.google.com/download?id=15Gsaz6aLyLHSYBp1Uws4XB7LuO8vLoKU&export=download&authuser=0"]],
+            migration: [["Migration", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/Migration.jpg", "https://drive.google.com/file/d/1HuN7UseUu6XxXN09yvom6PBsXC80MENd/preview", "https://drive.usercontent.google.com/download?id=1HuN7UseUu6XxXN09yvom6PBsXC80MENd&export=download&authuser=0"]],
+            mummies: [["Mummies", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/Mummies.jpg", "https://drive.google.com/file/d/1nKMzxs2NQJIUpXLtmIEiXoi7QV8Zk_lX/preview", "https://drive.usercontent.google.com/download?id=1nKMzxs2NQJIUpXLtmIEiXoi7QV8Zk_lX&export=download&authuser=0"]],
+            nimona: [["Nimona", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/Nimona.jpg", "https://drive.google.com/file/d/1zpzbIm5j9qpFVQE81NhPfeVm05vD0Ny5/preview", "https://drive.usercontent.google.com/download?id=1zpzbIm5j9qpFVQE81NhPfeVm05vD0Ny5&export=download&authuser=0"]],
+            pokemondetectivepikachu: [["Pokemon Detective Pikachu", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/PokemonDetectivePikachu.jpg", "https://drive.google.com/file/d/1I2yV1tAZwy3avYtj77nPK6ExcayxI8Ll/preview", "https://drive.usercontent.google.com/download?id=1I2yV1tAZwy3avYtj77nPK6ExcayxI8Ll&export=download&authuser=0"]],
+            spidermanacrossthespiderverse: [["Spider Man Across The Spider Verse", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/SpiderManAcrossTheSpiderVerse.jpg", "https://drive.google.com/file/d/1g4KHDy_wrzB_zCeeI_Hx6vnsC0FFV9VZ/preview", "https://drive.usercontent.google.com/download?id=1g4KHDy_wrzB_zCeeI_Hx6vnsC0FFV9VZ&export=download&authuser=0"]],
+            thebadguys: [["The Bad Guys", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/TheBadGuys.jpg", "https://drive.google.com/file/d/1X4wAFG74wKD5HMnINdy5M4Lig-Pr_TNd/preview", "https://drive.usercontent.google.com/download?id=1X4wAFG74wKD5HMnINdy5M4Lig-Pr_TNd&export=download&authuser=0"]],
+            themonkeyking: [["The Monkey King", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/TheMonkeyKing.jpg", "https://drive.google.com/file/d/1C1bCHK4dT2EhiUNFMxDKN2HiFlhVfEb1/preview", "https://drive.usercontent.google.com/download?id=1C1bCHK4dT2EhiUNFMxDKN2HiFlhVfEb1&export=download&authuser=0"]],
+            thesupermariobrosmovie: [["The Super Mario Bros Movie", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/TheSuperMarioBrosMovie.jpg", "https://drive.google.com/file/d/1JggmBlhFgDiHjUQyn4PeF67M09an06MM/preview", "https://drive.usercontent.google.com/download?id=1JggmBlhFgDiHjUQyn4PeF67M09an06MM&export=download&authuser=0"]],
+            wish: [["Wish", `../Other_Webpages/watch_movie.html?movie=${decryptedText}`, "../Images//Movie Images/Wish.jpg", "https://drive.google.com/file/d/1B_WCeTWAOqdyU5gFXZaiXi832lazf9Rf/preview", "https://drive.usercontent.google.com/download?id=1B_WCeTWAOqdyU5gFXZaiXi832lazf9Rf&export=download&authuser=0"]],
         }; 
     
         return movies;
@@ -832,9 +844,8 @@ try
              }
         }
         else
-        {
-            // failed.style.display = "block";
-            // failed.textContent = `No value for ${text} found in the library. Try again or contact the developer for any suggestions via the contact page...`;
+        {            
+            console.log(`No value for ${text} found in the library. Try again or contact the developer for any suggestions via the contact page...`);
         }
                     
     }

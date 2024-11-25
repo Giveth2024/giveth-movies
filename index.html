@@ -10,6 +10,36 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
     <title>Giveth Movies - Watch and Downlod Movies...</title>
     <script src="./Scripts/search.js" ></script>
+    <script>
+
+        // Function to redirect back to the original page if the URL is stored
+
+        function redirectToOriginalPage() {
+
+            const originalPageUrl = localStorage.getItem('currentPageUrl');
+
+
+            if (originalPageUrl) {
+
+                // Redirect back to the original page
+
+                window.location.href = originalPageUrl;
+
+
+                // Optionally, clear the stored URL to prevent future redirects
+
+                localStorage.removeItem('currentPageUrl');
+
+            }
+
+        }
+
+
+        // Call the function when the page loads
+
+        window.onload = redirectToOriginalPage;
+
+    </script>
     <style>
         .main_home
         {
@@ -104,16 +134,16 @@
 </head>
 <body>
     <script type="text/javascript">
-        // var sc_project=13057842; 
-        // var sc_invisible=1; 
-        // var sc_security="dd4bc0e1"; 
+        var sc_project=13057842; 
+        var sc_invisible=1; 
+        var sc_security="dd4bc0e1"; 
     </script>
-    <!-- <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script> -->
-        <!-- <noscript>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script> 
+        <noscript>
             <div class="statcounter"><a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank">
                 <img class="statcounter" src="https://c.statcounter.com/13057842/0/dd4bc0e1/1/" alt="Web Analytics Made Easy - Statcounter" referrerPolicy="no-referrer-when-downgrade"></a>
-            </div> -->
-        <!-- </noscript> -->
+            </div> 
+        </noscript> 
     <!-- End of Statcounter Code -->
     <header>
         <div class="title-logo">
